@@ -1,0 +1,90 @@
+BODY
+{
+    MARGIN: 5px 5px 10px;
+    COLOR: black;
+    FONT-FAMILY: Garamond,Helvetica,Time New Roman;
+    FONT-SIZE: medium;
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: left
+}
+
+A:link
+{
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+
+A:visited
+{
+    COLOR: #333333;
+    TEXT-DECORATION: none
+}
+
+
+A:hover
+{
+    COLOR: red;
+    TEXT-DECORATION: underline
+}
+
+IMG
+{
+    MARGIN: 2px;
+    BORDER-TOP-STYLE: none;
+    BORDER-RIGHT-STYLE: none;
+    BORDER-BOTTOM-STYLE: none;
+    BORDER-LEFT-STYLE: none
+}
+
+H1
+{
+    COLOR: black;
+    MARGIN: 2px;
+    TEXT-ALIGN: left;
+    FONT-FAMILY: Garamond,Time New Roman;
+}
+
+H2
+{
+    COLOR: black;
+    TEXT-ALIGN: left;
+    FONT-WEIGHT: normal;
+    FONT-FAMILY: Garamond,Time New Roman;
+    MARGIN: 10px
+}
+
+H3
+{
+    COLOR: black;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: medium;
+    margin-left: 0px;
+    MARGIN: 10px
+}
+
+H4
+{
+    COLOR: black;
+    FONT-SIZE: medium;
+    TEXT-ALIGN: center;
+    MARGIN: 0px
+}
+
+
+H5
+{
+    COLOR: black;
+    FONT-SIZE: small;
+    TEXT-ALIGN: left;
+    MARGIN: 5px
+}
+
+P
+{
+    COLOR: #000099;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px
+}
+
