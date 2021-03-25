@@ -3,51 +3,76 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-  
   <meta name="DESCRIPTION" content="Homepage of Chu Wei">
-
   
-  <meta name="KEYWORDS" content="Support Vector, Gaussian Processes, Bioinformatics, Supervised Learning">
+  <meta name="KEYWORDS" content="Gaussian Processes, Bioinformatics, Machine Learning">
   <title>CHU WEI's HOMEPAGE</title>
-
-  
-  
+ 
   <link rel="stylesheet" type="text/css" href="chuwei.css">
 
-  
-  <script src="http://www.gatsby.ucl.ac.uk/%7Echuwei/chuwei.js" language="javascript"></script>
+  <script type = "text/JavaScript">
+        function toggleAbstract(link, id) {
+	while(link.firstChild) {
+		link.removeChild(link.firstChild);
+	};
+	var div = document.getElementById('abstract-'+id);
+	if(div.style.display == 'none') {
+		div.style.display = 'block';
+		link.appendChild(document.createTextNode('Hide Abstract'));
+	} else {
+		div.style.display = 'none';
+		link.appendChild(document.createTextNode('View Abstract'));
+	}
+	return false;
+	}
+      </script>  
+
 </head><body>
+
+
 <!-- Introduction -->
 <table border="0" height="auto" width="100%">
 
   <tbody width="100%" align="left">
     <tr>
-      <td width="40%"> <left>&nbsp;&nbsp;<a href="http://chuwei.website"><img src="photo.jpg" align="middle" height="300" width=""></a></left> <br>
+      <td width="40%"> <left>&nbsp;&nbsp;<a href="http://chuwei.website"><img src="photo.png" align="middle" height="300" width=""></a></left> <br>
+
       <br>
-      <left></left>
       <h1>&nbsp;&nbsp;<a href="http://chuwei.website/">CHU, WEI</a></h1>
       <br>
-      <left> &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://scholar.google.com/citations?user=3J4zb7gAAAAJ&amp;hl=en" style="text-decoration: none;"><span title="Google Scholar Profile" style="font-family: Arial,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 120%; line-height: normal; font-size-adjust: none; font-stretch: normal; color: rgb(7, 131, 182);"><img src="ghat.png" alt="View Wei Chu's Google Scholar Profile" style="vertical-align: middle;" border="20" height="30" width=""></span></a>&nbsp;<a href="http://linkedin.com/in/chuwei" style="text-decoration: none;"><span title="LinkedIn Profile" style="font-family: Arial,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 120%; line-height: normal; font-size-adjust: none; font-stretch: normal; color: rgb(7, 131, 182);"><img src="linkedin.jpg" alt="View Wei Chu's LinkedIn Profile" style="vertical-align: middle;" border="20" height="30" width=""></span></a>&nbsp;<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/CV_WeiChu.pdf" style="text-decoration: none;"><span title="Short CV" style="font-family: Arial,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 120%; line-height: normal; font-size-adjust: none; font-stretch: normal; color: rgb(7, 131, 182);"><img src="cv_logo.png" alt="View Wei Chu's Short CV" style="vertical-align: middle;" border="20" height="30" width=""></span></a>&nbsp;<a href="mailto:email.chuwei@gmail.com" style="text-decoration: none;"><span title="Gmail" style="font-family: Arial,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 120%; line-height: normal; font-size-adjust: none; font-stretch: normal; color: rgb(7, 131, 182);"><img src="email.png" alt="Write to Wei Chu's Gmail" style="vertical-align: middle;" border="20" height="30" width=""></span></a>
-      </left> </td>
+
+      <left> 
+
+&nbsp;<a href="http://scholar.google.com/citations?user=3J4zb7gAAAAJ&amp;hl=en" style="text-decoration: none;"><span title="Google Scholar Profile">
+<img src="ghat.png" alt="View Wei Chu's Google Scholar Profile" style="vertical-align: middle;" border="20" height="30" width=""></span></a>
+
+&nbsp;<a href="http://linkedin.com/in/chuwei" style="text-decoration: none;"><span title="LinkedIn Profile">
+<img src="linkedin.jpg" alt="View Wei Chu's LinkedIn Profile" style="vertical-align: middle;" border="20" height="30" width=""></span></a>
+
+&nbsp;<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/CV_WeiChu.pdf" style="text-decoration: none;"><span title="Short CV">
+<img src="cv_logo.png" alt="View Wei Chu's Short CV" style="vertical-align: middle;" border="20" height="30" width=""></span></a>
+
+&nbsp;<a href="mailto:email.chuwei@gmail.com" style="text-decoration: none;"><span title="Gmail">
+<img src="email.png" alt="Write to Wei Chu's Gmail" style="vertical-align: middle;" border="20" height="30" width=""></span></a>
+
+      </left>
+      </td>
+
       <td width="60%">
       <div style="text-align: right;"> </div>
-      <h1 style="text-align: right;"><a href="#aboutme">About Me &nbsp;
-      </a></h1>
+      <h1 style="text-align: right;"><a href="#aboutme">About Me &nbsp;</a></h1>
       <div style="text-align: right;"> </div>
-      <h1 style="text-align: right;"><a href="#recent">Recent Work
-&nbsp; </a></h1>
+      <h1 style="text-align: right;"><a href="#recent">Recent Work &nbsp; </a></h1>
       <div style="text-align: right;"> </div>
-      <h1 style="text-align: right;"><a href="#working">Working
-Experience &nbsp; </a></h1>
+      <h1 style="text-align: right;"><a href="#working">Working Experience &nbsp; </a></h1>
       <div style="text-align: right;"> </div>
-      <h1 style="text-align: right;"><a href="#publications">Publications
-&nbsp; </a></h1>
+      <h1 style="text-align: right;"><a href="#publications">Publications &nbsp; </a></h1>
       <div style="text-align: right;"> </div>
       <h1 style="text-align: right;"><a href="#patents">Patents &nbsp; </a></h1>
       <div style="text-align: right;"> </div>
-      <h1 style="text-align: right;"><a href="#awards">Honors &amp;
-Awards &nbsp; </a></h1>
-      <b1><br>
+      <h1 style="text-align: right;"><a href="#awards">Honors &amp; Awards &nbsp; </a></h1>
+      <b1>
+      <br>
       <br>
       </b1></td>
     </tr>
@@ -66,28 +91,30 @@ I am a R&D team leader and an award-winning researcher with well-balanced academ
 <br>
       </h3>
       <h3>
-My academic interest is to design and implement statistical learning algorithms that convert large scale machine-readable data into human-understandable knowledge. I ever conducted research at CCLS, Columbia University, including relational Gaussian processes, p-Tucker and other pragmatic Bayesian techniques. I was also a postdoc fellow for three years at the Gatsby Computational Neuroscience Unit, UCL, mentored by Zoubin Ghahramani and David L. Wild on statistical machine learning. I received my Ph.D. degree from the National University of Singapore, under the joint guidance of S. Sathiya Keerthi and Chong Jin Ong. I have published 50+ papers at top-tier conferences and journals, received 5000+ citations according to Google Scholar, and also earned a Best Paper Award at ACM WSDM and a Best Demo Award at ACM CIKM.
+My academic interest is to design and implement statistical learning algorithms that convert large scale machine-readable data into human-understandable knowledge. I ever conducted research at CCLS, Columbia University, including relational Gaussian processes, p-Tucker and other pragmatic Bayesian techniques. I was also a postdoc fellow for three years at the Gatsby Computational Neuroscience Unit, UCL, mentored by Zoubin Ghahramani and David L. Wild on statistical machine learning. I received my Ph.D. degree from the National University of Singapore, under the joint guidance of S. Sathiya Keerthi and Chong Jin Ong. I have published 50+ papers at top-tier conferences and journals, received 8000+ citations according to Google Scholar, and also earned a Best Paper Award at ACM WSDM and a Best Demo Award at ACM CIKM.
 <br>
       </h3>
+
+
       <hr><!-- Recent Work -->
       <h2><a name="recent">Recent Work</a></h2>
       <ol>
         <li>
-          <h3>"Knowledge graph and real-life applications" <a href="https://cogx.co/speakers/dr-wei-chu/">CogX 2020</a></h3>
-          </li>  
+        <h3>"Knowledge graph and real-life applications" <a href="https://cogx.co/speakers/dr-wei-chu/">CogX 2020</a></h3>
+        </li>  
 
-	  <li>
-          <h3><a href="https://arxiv.org/abs/2004.14166">"SpellGCN: incorporating phonological and visual similarities into language models for Chinese spelling check"</a> <a href="https://acl2020.org/">ACL 2020</a></h3>
-          </li>  
+	<li>
+        <h3><a href="https://www.aclweb.org/anthology/2020.acl-main.81/">"SpellGCN: incorporating phonological and visual similarities into language models for Chinese spelling check"</a> <a href="https://acl2020.org/">ACL 2020</a></h3>
+        </li>  
      
-	  <li>
-          <h3><a href="https://www.aclweb.org/anthology/2020.acl-main.6/">"Generating informative conversational response using recurrent knowledge-interaction and knowledge-copy"</a> <a href="https://acl2020.org/">ACL 2020</a></h3>
-          </li>    
+	<li>
+        <h3><a href="https://www.aclweb.org/anthology/2020.acl-main.6/">"Generating informative conversational response using recurrent knowledge-interaction and knowledge-copy"</a> <a href="https://acl2020.org/">ACL 2020</a></h3>
+        </li>    
 
-	  <li>
-          <h3><a href="https://dl.acm.org/doi/abs/10.1145/3366423.3380094">"Metric learning with equidistant and equidistributed
+	<li>
+        <h3><a href="https://dl.acm.org/doi/abs/10.1145/3366423.3380094">"Metric learning with equidistant and equidistributed
 triplet-based loss for product image search"</a> <a href="https://www2020.thewebconf.org/">WWW 2020</a></h3>
-          </li>  
+        </li>  
 
 <!--
 <li>
@@ -103,47 +130,43 @@ presented at Alibaba
 Technology Forum at the Hong Kong Polytechnic University, 2016.06 </h3>
         </li>
 -->
-      </ol>
+</ol>
+
+
+
       <hr><!-- Working Experience -->
       <h2><a name="working">Working Experience</a></h2>
       <ol>
         <li>
-          <h3>Senior Director of Engineering, AI Dept, <b>Ant Group</b>, Alibaba
-Group,
-2017.08 till now</h3>
+          <h3>Senior Director of Engineering, AI Dept, <b>Ant Financial</b>, Alibaba Group, 2017.08 till now</h3>
         </li>
         <li>
-          <h3>Director of Engineering, Alibaba Cloud,<b> Alibaba
-Group</b>,
-2014.11 to 2017.08<br>
+          <h3>Director of Engineering, Alibaba Cloud,<b> Alibaba Group</b>, 2014.11 to 2017.08<br>
           </h3>
           <h3> </h3>
         </li>
         <li>
-          <h3>Principal Applied Scientist Lead, Bing, <b>Microsoft</b>,
-2014.01 to 2014.11 </h3>
+          <h3>Principal Applied Scientist Lead, Bing, <b>Microsoft</b>, 2014.01 to 2014.11 </h3>
         </li>
         <li>
-          <h3>Senior Applied Researcher, Bing, <b>Microsoft</b>,
-2011.05 to 2014.01 </h3>
+          <h3>Senior Applied Researcher, Bing, <b>Microsoft</b>, 2011.05 to 2014.01 </h3>
         </li>
         <li>
           <h3>Scientist, <b>Yahoo! Labs</b>, 2008.01 to 2011.05 </h3>
         </li>
         <li>
-          <h3>Associate Research Scientist, CCLS, <b>Columbia
-University</b>, 2006.01 to 2008.01 </h3>
+          <h3>Associate Research Scientist, CCLS, <b>Columbia University</b>, 2006.01 to 2008.01 </h3>
         </li>
         <li>
-          <h3>Research Fellow, Gatsby Unit, <b>University
-College London</b>, 2003.02 to 2006.01 </h3>
+          <h3>Research Fellow, Gatsby Unit, <b>University College London</b>, 2003.02 to 2006.01 </h3>
         </li>
       </ol>
+
+
+
       <hr><!-- Publications -->
       <h2><a name="publications">Publications</a></h2>
       <ol>
-
-        <h3 style="font-weight: bold;">Refereed Conference</h3>
 
 <li>
           <h3>X. Chen, W. Xu，K. Chen，T. Wang，S. Jiang，F. Wang，W. Chu and Y. Qi (2020)
@@ -187,6 +210,7 @@ Abstract</a>)</h3>
         </li>
 
 <li>
+
           <h3>C. Li, X. Yan, X. Deng, Y. Qi, W. Chu, L. Song, J. Qiao, J. He and J. Xiong (2019)
 <b><a href="">
 Latent Dirichlet Allocation for Internet Price War</a></b>, 
@@ -197,6 +221,7 @@ Abstract</a>)</h3>
         </li>
 
 <li>
+
           <h3>X. Cheng, W. Xu, T. Wang, W. Chu, W. Huang, K. Chen and J. Hu (2019)
 <b><a href="">
 Variational Semi-Supervised Aspect-Term Sentiment Analysis via Transformer</a></b>, 
@@ -207,6 +232,7 @@ Abstract</a>)</h3>
         </li>
 
 <li>
+
           <h3>W. Huang, X. Cheng, T. Wang and W. Chu (2019)
 <b><a href="">
 BERT-Based Multi-head Selection for Joint Entity-Relation Extraction</a></b>, 
@@ -217,6 +243,7 @@ Abstract</a>)</h3>
         </li>
 
 <li>
+
           <h3>W. Sui, Q. Zhang, J. Yang and W. Chu (2018)
 <b><a href="">
 A Novel Integrated Framework for Learning both Text Detection and Recognition</a></b>, 
@@ -226,8 +253,7 @@ Abstract</a>)</h3>
           <div style="display: none;" id="abstract-171"> </div>
         </li>
 
-
-<li>
+	<li>
           <h3>T. Yin, X. Deng, Y. Qi, W. Chu, J. Pan, X. Yan and J. Xiong (2018)
 <b><a href="">
 Personalized Behavior Prediction with Encoder-to-Decoder Structure</a></b>, 
@@ -236,7 +262,6 @@ Personalized Behavior Prediction with Encoder-to-Decoder Structure</a></b>,
 Abstract</a>)</h3>
           <div style="display: none;" id="abstract-171"> </div>
         </li>
-
 
         <li>
           <h3>J. Yu, M. Qiu, J. Jiang, S. Song, J. Huang, W. Chu and H.
@@ -249,6 +274,7 @@ Web Search and Data Mining</i></a>
 Abstract</a>)</h3>
           <div style="display: none;" id="abstract-171"> </div>
         </li>
+
         <li>
           <h3>M. Qiu, P. Zhao, K. Zhang, X. Shi, X. Wang, J. Huang and
 W. Chu (2017) <b><a href="https://www.computer.org/csdl/proceedings/icdm/2017/3835/00/3835a395.pdf">A
@@ -261,6 +287,7 @@ Data Mining</i></a>
 Abstract</a>)</h3>
           <div style="display: none;" id="abstract-172"> </div>
         </li>
+
         <li>
           <h3>F. Li et al. (2017) <b><a href="https://www.researchgate.net/publication/320885511_AliMe_Assist_An_Intelligent_Assistant_for_Creating_an_Innovative_E-commerce_Experience">AliMe
 Assist: an intelligent assistant for creating an innovative E-commerce
@@ -270,6 +297,7 @@ International Conference on Information and Knowledge Management</i></a>
 Abstract</a>)&nbsp; <font color="red">Winner of the Best Demo Award</font></h3>
           <div style="display: none;" id="abstract-173"> </div>
         </li>
+
         <li>
           <h3>M. Qiu, et al. (2017) <b><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/acl2017.pdf">AliMe
 Chat: a sequence to sequence and rerank based ChatBot engine</a></b>, <a href="http://http://acl2017.org/"><i>Annual Meeting of the
@@ -278,6 +306,35 @@ Association for Computational Linguistics</i></a>
 Abstract</a>)</h3>
           <div style="display: none;" id="abstract-152"> </div>
         </li>
+
+
+        <li>
+          <h3>J. Yang, Y. Chen, S. Wang, L. Li, C. Meng, M. Qiu, W. Chu
+(2017) <b><a href="http://padl.ws/papers/Paper%207.pdf">Practical
+lessons of distributed deep learning</a></b>, <i>Workshop on
+Principled Approaches to Deep Learning, at
+ICML</i>
+(<a href="http://padl.ws/" onclick="toggleAbstract(this, 170); return false;">View
+Abstract</a>)</h3>
+          <div style="display: none;" id="abstract-170">
+          <p>With the advent of big data and big model, there are
+increasing needs on training deep learning model in distributed mode.
+Although the open source deep learning software such as Tensor- Flow
+and MXNet do support training deep learn- ing model in parallel, it is
+still a challenging task for data scientists to implement scalable and
+high performance distributed deep learning algo- rithms. In this paper,
+we share several practical lessons on optimizing distributed deep
+learning training process, including optimization strate- gies for
+typical model architecture such as DNN and CNN. For DNN, we exploit its
+computation- to-communication ratio to reduce the commu- nication
+overhead. For CNN, we find hybrid- parallelism an effective way to
+squeeze the po- tential of strong-scaling. Experiments in off-the-
+shelf deep learning software show that, with our optimization
+strategies we are able to have 10x speed-up on AlexNet against the
+standard dis- tributed implementation.</p>
+          </div>
+        </li>
+
         <li>
           <h3>B. Bi, <a href="http://research.microsoft.com/en-us/um/people/haoma/">H. Ma</a>,
 B. Hsu, <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
@@ -310,6 +367,7 @@ baseline, confirming the effectiveness of TEM and our probabilistic
 framework in related entity recommendation.</p>
           </div>
         </li>
+
         <li>
           <h3>J. Yan, <a href="http://chuwei.website/">W. Chu</a>, <a href="http://research.microsoft.com/en-us/um/people/ryenw/">R. W.
 White</a> (2014) <b><a href="http://dl.acm.org/citation.cfm?id=2609617">Cohort
@@ -340,6 +398,44 @@ learn cohorts and target easily-identifiable classes of ambiguous or
 unseen queries. </p>
           </div>
         </li>
+
+       <li>
+          <h3>X. Li, C. Guo, W. Chu, Y. Wang, J. Shavlik
+(2014) <b><a href="https://pdfs.semanticscholar.org/60cd/18f7905a8b37872c111a7d74d418274740e2.pdf">Deep
+learning powered in-session contextual ranking using clickthrough data</a></b>,
+          <i>Workshop on Personalization: Methods and Applications, at
+Neural Information Processing Systems</i>
+(NIPS) (<a href="https://pdfs.semanticscholar.org/60cd/18f7905a8b37872c111a7d74d418274740e2.pdf" onclick="toggleAbstract(this, 162); return false;">View
+Abstract</a>)</h3>
+          <div style="display: none;" id="abstract-162">
+          <p>User interactions with search engines provide many cues
+that can be leveraged
+to improve the relevance of search results through personalization. The
+context
+information (history of queries, clicked documents, etc.) provides
+strong signals
+about users’ search intent, which can be used to personalize the search
+experience
+and improve a web search engine. We demonstrate how to generate the
+semantic
+features from in-session contextual information with deep learning
+models, and
+incorporate these semantic features into the current ranking model to
+re-rank the
+results. We evaluate our approach using a large, real-world search log
+data from a
+major commercial web search engine, and the experimental results show
+our approach
+can significantly improve the performance of the search engine.
+Furthermore,
+we also find that the domain-specific, click-based features can
+effectively
+decrease the unsatisfied clicks for the current ranking model to
+improve the search
+experience.</p>
+          </div>
+        </li>
+
         <li>
           <h3>H. Wang, X. He, M. Chang, Y. Song, R.
 W. White, W. Chu (2013) <b><a href="http://dl.acm.org/citation.cfm?id=2484068">Personalized ranking
@@ -362,6 +458,7 @@ proposed method compared to several state-of-the-art ranking model
 adaptation methods. </p>
           </div>
         </li>
+
         <li>
           <h3>R. W. White, W. Chu, A. Hassan, X. He, Y. Song, H. Wang
 (2013) <b><a href="http://dl.acm.org/citation.cfm?id=2488511">Enhancing
@@ -394,6 +491,7 @@ gains in retrieval performance, and has direct implications for
 improving personalization in search systems. </p>
           </div>
         </li>
+
         <li>
           <h3>H. Wang, Y. Song, M. Chang, X. He, R. W. White, W. Chu
 (2013) <b><a href="http://dl.acm.org/citation.cfm?id=2488507">Learning
@@ -423,6 +521,60 @@ and facilitates the development of dedicated search-engine support for
 long-term tasks.</p>
           </div>
         </li>
+
+        <li>
+          <h3><a href="http://taesupmoon.com"> T. Moon</a>, <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
+Chu</a>, <a href="http://www.research.rutgers.edu/%7Elihong/">L. Li</a>,
+Z. Zheng, Y. Chang (2012) <b><a href="http://tois.acm.org/">Online
+learning framework for refining recency search results with user click
+feedback</a></b>, <i><a href="http://tois.acm.org/">Transactions
+on Information Systems</a></i> 30(4) (<a href="http://arxiv.org/abs/1103.3735" onclick="toggleAbstract(this, 133); return false;">View
+Abstract</a>)</h3>
+          <div style="display: none;" id="abstract-133">
+          <p>In this paper, we focus on recency search and study a
+number
+of algorithms to improve ranking results by leveraging user click
+feedback. Our contributions are three-fold. First, we use real search
+sessions collected in a random exploration bucket for \emph{reliable}
+offline evaluation of these algorithms, which provides an unbiased
+comparison across algorithms without online bucket tests. Second, we
+propose a re-ranking approach to improve search results for recency
+queries using user clicks. Third, our empirical comparison of a dozen
+algorithms on real-life search data suggests importance of a few
+algorithmic choices in these applications, including generalization
+across different query-document pairs, specialization to popular
+queries, and real-time adaptation of user clicks. <a href="http://arxiv.org/abs/1103.3735">[pdf]</a></p>
+          </div>
+        </li>
+
+        <li>
+          <h3><a href="http://www.research.rutgers.edu/%7Elihong/">L. Li</a>,
+          <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
+Chu</a>, <a href="http://hunch.net/%7Ejl/">J. Langford</a>, <a href="http://taesupmoon.com"> T. Moon</a>, and <a href="http://www.xuanhui.me/">X. Wang</a> (2012) <b><a href="http://jmlr.csail.mit.edu/proceedings/papers/v26/li12a/li12a.pdf">An
+unbiased offline evaluation of contextual bandit algorithms with
+generalized linear models</a></b>, <i><a href="http://jmlr.csail.mit.edu/proceedings/papers/v26/">Journal of
+Machine Learning Research - Workshop and Conference Proceedings 26</a></i>
+(JMLR W&amp;CP-26) (<a href="http://jmlr.csail.mit.edu/proceedings/papers/v26/li12a/li12a.pdf" onclick="toggleAbstract(this, 161); return false;">View
+Abstract</a>)</h3>
+          <div style="display: none;" id="abstract-161">
+          <p>Contextual bandit algorithms have become popular tools in
+online recommendation and advertising systems. Offline evaluation of
+the effectiveness of new algorithms in these applications is critical
+for protecting online user experiences but very challenging due to
+their ``partial-label'' nature. The purpose of this paper is two-fold.
+First, we review a recently proposed offline evaluation technique.
+Different from simulator-based approaches, the method is completely
+data-driven, is easy to adapt to different applications, and more
+importantly, provides provably unbiased evaluations. We argue for the
+wide use of this technique as standard practice when comparing bandit
+algorithms in real-life problems. Second, as an application of this
+technique, we compare and validate a number of new algorithms based on
+generalized linear models. Experiments using real Yahoo! data suggest
+substantial improvement over algorithms with linear models when the
+rewards are binary. <a href="http://jmlr.csail.mit.edu/proceedings/papers/v26/li12a/li12a.pdf">[pdf]</a></p>
+          </div>
+        </li>
+
         <li>
           <h3><a href="http://research.microsoft.com/en-us/um/people/pauben/">P.
 Bennett</a>, <a href="http://research.microsoft.com/en-us/um/people/ryenw/">R.
@@ -435,8 +587,7 @@ SIGIR Conference on Research and Development in Information Retrieval</a></i>
 Abstract</a>)</h3>
           <div style="display: none;" id="abstract-134">
           <p>User behavior provides many cues to improve the relevance
-of
-search results through personalization. One aspect of user behavior
+of search results through personalization. One aspect of user behavior
 that provides especially strong signals for delivering better relevance
 is an individualøs history of queries and clicked docu-ments. Previous
 studies have explored how short-term behavior or long-term behavior can
@@ -447,6 +598,7 @@ optimally contribute to gains in relevance through search
 personalization.<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/BennettSIGIR2012.pdf">[pdf]</a></p>
           </div>
         </li>
+
         <li>
           <h3><a href="http://chuwei.website">W. Chu</a>,
 M. Zinkevich, <a href="http://www.research.rutgers.edu/%7Elihong/">L.
@@ -456,8 +608,7 @@ Knowledge Discovery and Data Mining</a></i> (KDD-17) (<a href="http://www.gatsby
 Abstract</a>)</h3>
           <div style="display: none;" id="abstract-136">
           <p>Unlabeled samples can be intelligently selected for
-labeling
-to minimize classification error. In many real-world applications,
+labeling to minimize classification error. In many real-world applications,
 a large number of unlabeled samples arrive in a
 streaming manner, making it impossible to maintain all the
 data in a candidate pool. In this work, we consider the unbiasedness
@@ -468,6 +619,7 @@ Meanwhile, Bayesian linear classifiers with weighted maximum
 likelihood are optimized online to estimate parameters. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/Chu11Unbiased.pdf">[pdf]</a></p>
           </div>
         </li>
+
         <li>
           <h3>L. Zhang, J. Yang, <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W. Chu</a>, and B. Tseng
 (2011) <b><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/p2501-zhang.pdf">A
@@ -491,6 +643,7 @@ various advanced machine learning techniques in the proactive
 moderation system. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/p2501-zhang.pdf">[pdf]</a></p>
           </div>
         </li>
+
         <li>
           <h3><a href="http://www.research.rutgers.edu/%7Elihong/">L.
 Li</a>, W. Chu, <a href="http://hunch.net/%7Ejl/">J. Langford</a> and <a href="http://www.xuanhui.me/">X. Wang</a> (2011) <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/wsdm11.pdf"><b>Unbiased
@@ -511,6 +664,7 @@ bucket evaluation of several contextual bandit algorithms show
 accuracy and effectiveness of our offline evaluation method. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/wsdm11.pdf">[pdf]</a></p>
           </div>
         </li>
+
         <li>
           <h3>W. Chu, <a href="http://www.research.rutgers.edu/%7Elihong/">L.
 Li</a>, <a href="http://www.cc.gatech.edu/%7Elreyzin/">L. Reyzin</a>,
@@ -529,6 +683,7 @@ logarithmic
 factors. <a href="http://www.cc.gatech.edu/%7Elreyzin/papers/ChuLRS11.pdf">[pdf]</a></p>
           </div>
         </li>
+
         <li>
           <h3> <a href="http://taesupmoon.com/">T. Moon</a>, <a href="http://www.research.rutgers.edu/%7Elihong/">L. Li</a>, W. Chu,
 C. Liao, Z. Zheng and Y. Chang (2010) <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/cikm10.pdf"><b>Online
@@ -551,6 +706,7 @@ ected in the click feedback, compared to
 batch-trained ranking functions. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/cikm10.pdf">[pdf]</a></p>
           </div>
         </li>
+
         <li>
           <h3><a href="http://www.research.rutgers.edu/%7Elihong/">L. Li</a>,
 W. Chu, <a href="http://hunch.net/%7Ejl/">J. Langford</a> and <a href="http://www.cs.princeton.edu/%7Eschapire/">R. E. Schapire</a>
@@ -576,6 +732,7 @@ simultaneously adapting its article-selection strategy based on
 user-click feedback to maximize total user clicks. <a href="http://www.research.rutgers.edu/%7Elihong/pub/Li10Contextual.pdf">[pdf]</a></p>
           </div>
         </li>
+
         <li>
           <h3>S.-T. Park and W. Chu (2009) <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/p21-park.pdf"> <b>Pairwise
 preference regression for cold-start recommendation</b></a>, <i>ACM
@@ -600,6 +757,7 @@ segmented most popular, and two variations of Vibes affinity algorithm
 widely used at Yahoo! for recommendation. </p>
           </div>
         </li>
+
         <li>
           <h3>W. Chu and <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
 Ghahramani</a> (2009) <a href="http://jmlr.csail.mit.edu/proceedings/papers/v5/chu09a/chu09a.pdf"><b>Probabilistic
@@ -624,6 +782,7 @@ filtering and a number of benchmark multiway array data. <a href="http://jmlr.cs
 pTucker code]</a> </p>
           </div>
         </li>
+
         <li>
           <h3>W. Chu and S.-T. Park (2009) <a href="http://www2009.eprints.org/70/1/p691.pdf"><b>Personalized
 recommendation on dynamic content using predictive bilinear
@@ -655,6 +814,7 @@ competitive approaches. <a href="http://www2009.eprints.org/70/1/p691.pdf">[pdf]
           </p>
           </div>
         </li>
+
         <li>
           <h3>W. Chu, et al. (2009) <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/isp781-chu.pdf"><b>A
 case study of behavior-driven conjoint analysis on Yahoo! Front Page
@@ -675,6 +835,7 @@ developed by utilizing logistic tensor regression in standard
 partworth framework for solutions. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/isp781-chu.pdf">[pdf]</a></p>
           </div>
         </li>
+
         <li>
           <h3><a href="http://www.statslab.cam.ac.uk/%7Esilva/">R. Silva</a>,
 W. Chu and <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
@@ -698,6 +859,7 @@ homepage</a> for <a href="%20href=" http:="" www.statslab.cam.ac.uk="" ~silva=""
 and [code] </p>
           </div>
         </li>
+
         <li>
           <h3><a href="http://www.dbs.informatik.uni-muenchen.de/%7Eyu_k/">K.
 Yu</a> and W. Chu (2007) <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/nips07-1.pdf"><b>Gaussian
@@ -717,6 +879,7 @@ prediction and transfer learning, which were traditionally two separate
 topics. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/nips07-1.pdf">[pdf]</a></p>
           </div>
         </li>
+
         <li>
           <h3><a href="http://pannaga.datta.googlepages.com/">P.
 K. Shivaswamy</a>, W. Chu and <a href="http://symptotic.com/mj/">M.
@@ -738,6 +901,25 @@ regression and binary classification tasks. <a href="http://www.gatsby.ucl.ac.uk
 version]</a> </p>
           </div>
         </li>
+
+        <li>
+          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
+Chu</a> and <a href="http://www.keerthis.com/index.html">S.
+S. Keerthi</a>&nbsp;(2007)&nbsp; <b><a href="http://www.mitpressjournals.org/doi/abs/10.1162/neco.2007.19.3.792">Support
+vector
+ordinal regression</a></b>,&nbsp; <i><a href="http://neco.mitpress.org/">Neural Computation</a></i>
+19(3):792-815 (<a href="http://www.mitpressjournals.org/doi/abs/10.1162/neco.2007.19.3.792" onclick="toggleAbstract(this, 33); return false;">View
+Abstract</a>)</h3>
+          <div style="display: none;" id="abstract-33">
+          <p>In this paper, we propose two new support vector
+formulations
+for ordinal regression, which optimize multiple thresholds to define
+parallel discriminant hyperplanes for the ordinal scales. Both
+approaches guarantee that the thresholds are properly ordered at the
+optimal solution. </p>
+          </div>
+        </li>
+
         <li>
           <h3><a href="http://www.cs.uchicago.edu/%7Evikass/">V.
 Sindhwani</a>, W. Chu and <a href="http://www.keerthis.com/index.html">S.
@@ -755,6 +937,7 @@ semi-supervised Gaussian processes. We demonstrate this approach
 empirically on several classification problems. <a href="http://people.cs.uchicago.edu/%7Evikass/ssgp.pdf">[pdf]</a> </p>
           </div>
         </li>
+
         <li>
           <h3>W. Chu, <a href="http://www.cs.uchicago.edu/%7Evikass/">V.
 Sindhwani</a>, <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
@@ -779,6 +962,7 @@ usefulness of this algorithm. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/pap
 [pdf]</a> </p>
           </div>
         </li>
+
         <li>
           <h3><a href="http://www.dbs.informatik.uni-muenchen.de/%7Eyu_k/">K.
 Yu</a>, W. Chu, <a href="http://www.dbs.informatik.uni-muenchen.de/%7Espyu/">S.
@@ -801,6 +985,7 @@ defined on one type of entities. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/
 [pdf]</a> </p>
           </div>
         </li>
+
         <li>
           <h3><a href="http://drona.csa.iisc.ernet.in/%7Eshirish/">S.
 K. Shevade</a> and W. Chu (2006) <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/dm825.pdf"><b>Minimum
@@ -816,6 +1001,7 @@ contain most of the training samples. <a href="http://www.gatsby.ucl.ac.uk/%7Ech
 [pdf]</a> </p>
           </div>
         </li>
+
         <li>
           <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
 Chu</a>, <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
@@ -844,173 +1030,15 @@ RNA-processing complexes indicate that our method is capable of
 partitioning the data in a biologically meaningful way. </p>
           </div>
         </li>
-        <li>
-          <h3><a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
-S. Keerthi</a> and <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a>&nbsp;(2005)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/sgpr.pdf"><b>A
-matching pursuit approach to sparse Gaussian process regression</b></a>,
-          <i>Neural Information Processing Systems</i>
-(NIPS-18):643-650 (<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/sgpr.pdf" onclick="toggleAbstract(this, 12); return false;">View
-Abstract</a>) </h3>
-          <div style="display: none;" id="abstract-12">
-          <p>In this paper, we propose a new basis
-selection criterion for building sparse GP regression
-models that provides promising gains in accuracy as well as
-efficiency over previous methods.
-Our algorithm is much faster than that of Smola and Bartlett,
-while, in generalization it greatly outperforms the
-information gain approach proposed by Seeger et al, especially
-on the quality of predictive distributions. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/sgpr.ps">
-[ps]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/README.sgpr">
-[code]</a> </p>
-          </div>
-        </li>
+
         <li>
           <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a> and <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
-Ghahramani</a>&nbsp;(2005)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gppl.pdf"> <b>Preference
-learning with Gaussian processes</b></a>, <i>International Conference
-on Machine Learning</i>
-(ICML-22):137-144 (<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gppl.pdf" onclick="toggleAbstract(this, 10); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-10">
-          <p>In this paper, we propose a probabilistic kernel
-approach to
-preference learning based on Gaussian processes. A new likelihood
-function is proposed to capture the preference relations in the
-Bayesian framework. The generalized formulation is also applicable to
-tackle many multiclass problems. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gppl.pdf">[pdf]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gppl.ps">[ps]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gppl.zip">[zip]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/plgp.htm">
-[code]</a> </p>
-          </div>
-        </li>
-        <li>
-          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a> and <a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
-S. Keerthi</a>&nbsp;(2005)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icmlsvor.pdf"> <b>New
-approaches to support vector ordinal regression</b></a>,
-&nbsp;<i>International Conference on Machine Learning</i>
-(ICML-22):145-152 (<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icmlsvor.pdf" onclick="toggleAbstract(this, 9); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-9">
-          <p>In this paper, we propose two new support vector
-formulations
-for ordinal regression, which optimize multiple thresholds to define
-parallel discriminant hyperplanes for the ordinal scales. Both
-approaches guarantee that the thresholds are properly ordered at the
-optimal solution. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icmlsvor.pdf">
-[pdf]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icmlsvor.ps">
-[ps]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icmlsvor.zip">
-[zip]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/svor.htm">
-[code]</a> </p>
-          </div>
-        </li>
-        <li>
-          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a>, <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
-Ghahramani</a> and <a href="http://faculty.kgi.edu/wild/">D.
-L. Wild</a>&nbsp;(2004)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icml103.pdf"> <b>A
-graphical model for protein secondary structure
-prediction</b></a>, &nbsp;<i>International
-Conference on Machine Learning </i>(ICML-21):161-168 (<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icml103.pdf" onclick="toggleAbstract(this, 6); return false;">View
-Abstract</a>) </h3>
-          <div style="display: none;" id="abstract-6">
-          <p>In this paper, we present a graphical model that extends
-segmental semi-Markov
-models (SSMM) to exploit multiple sequence alignment profiles for
-protein structure
-prediction. A novel parameterized model is proposed as the likelihood
-function
-for the SSMM. By incorporating the information from long range
-interactions in
-beta-sheets, this model is capable of carrying out inference on contact
-maps. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icml103.pdf">
-[pdf]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icml103.ps">
-[ps]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icml103.zip">
-[zip]</a> <a href="http://public.kgi.edu/%7Echuwei/eva/submiteva.html">
-[webserver]</a> </p>
-          </div>
-        </li>
-        <li>
-          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a>, <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
-Ghahramani</a> and <a href="http://faculty.kgi.edu/wild/">D.
-L. Wild</a>&nbsp;(2004)&nbsp; <b>Protein secondary
-structure prediction using sigmoid belief networks to parameterize
-segmental
-semi-Markov models</b>, &nbsp;<i>European Symposium on
-Artificial Neural Networks </i>(ESANN-05):81-86 </h3>
-        </li>
-        <li>
-          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a>, <a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
-S. Keerthi</a> and <a href="http://guppy.mpe.nus.edu.sg/%7Empeongcj/ongcj.html">C.
-J. Ong</a>&nbsp;(2002)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gfsvm.pdf"> <b>A
-general formulation for support vector machines</b></a>,
-&nbsp;<i>International Conference on Neural Information
-Processing </i>(ICONIP-09)</h3>
-        </li>
-        <li>
-          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a>, <a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
-S. Keerthi</a> and <a href="http://guppy.mpe.nus.edu.sg/%7Empeongcj/ongcj.html">C.
-J. Ong</a>&nbsp;(2002)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/btsvc_iconip.pdf"> <b>A
-new Bayesian design method for support vector
-classification</b></a>, &nbsp;<i>International
-Conference on Neural Information Processing </i>(ICONIP-09)</h3>
-        </li>
-        <li>
-          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a>, <a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
-S. Keerthi</a> and <a href="http://guppy.mpe.nus.edu.sg/%7Empeongcj/ongcj.html">C.
-J. Ong</a>&nbsp;(2001)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icml.pdf"> <b>A
-unified loss function in Bayesian framework for
-support vector regression</b></a>, &nbsp;<i>International
-Conference on Machine Learning</i> (ICML-18):51-58</h3>
+Chu</a>&nbsp;(2006)&nbsp; <b><a href="http://ieeexplore.ieee.org/search/wrapper.jsp?arnumber=1716309">Model
+selection: an empirical study on two kernel classifiers</a></b>,&nbsp;<i>International
+Joint Conference on Neural Networks </i> (IJCNN-06):1673-1679</h3>
         </li>
 
-        <h3 style="font-weight: bold;">Journal Article &amp; Book
-Chapter</h3>
-        <li>
-          <h3><a href="http://taesupmoon.com"> T. Moon</a>, <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a>, <a href="http://www.research.rutgers.edu/%7Elihong/">L. Li</a>,
-Z. Zheng, Y. Chang (2012) <b><a href="http://tois.acm.org/">Online
-learning framework for refining recency search results with user click
-feedback</a></b>, <i><a href="http://tois.acm.org/">Transactions
-on Information Systems</a></i> 30(4) (<a href="http://arxiv.org/abs/1103.3735" onclick="toggleAbstract(this, 133); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-133">
-          <p>In this paper, we focus on recency search and study a
-number
-of algorithms to improve ranking results by leveraging user click
-feedback. Our contributions are three-fold. First, we use real search
-sessions collected in a random exploration bucket for \emph{reliable}
-offline evaluation of these algorithms, which provides an unbiased
-comparison across algorithms without online bucket tests. Second, we
-propose a re-ranking approach to improve search results for recency
-queries using user clicks. Third, our empirical comparison of a dozen
-algorithms on real-life search data suggests importance of a few
-algorithmic choices in these applications, including generalization
-across different query-document pairs, specialization to popular
-queries, and real-time adaptation of user clicks. <a href="http://arxiv.org/abs/1103.3735">[pdf]</a></p>
-          </div>
-        </li>
-        <li>
-          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a> and <a href="http://www.keerthis.com/index.html">S.
-S. Keerthi</a>&nbsp;(2007)&nbsp; <b><a href="http://www.mitpressjournals.org/doi/abs/10.1162/neco.2007.19.3.792">Support
-vector
-ordinal regression</a></b>,&nbsp; <i><a href="http://neco.mitpress.org/">Neural Computation</a></i>
-19(3):792-815 (<a href="http://www.mitpressjournals.org/doi/abs/10.1162/neco.2007.19.3.792" onclick="toggleAbstract(this, 33); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-33">
-          <p>In this paper, we propose two new support vector
-formulations
-for ordinal regression, which optimize multiple thresholds to define
-parallel discriminant hyperplanes for the ordinal scales. Both
-approaches guarantee that the thresholds are properly ordered at the
-optimal solution. </p>
-          </div>
-        </li>
+
         <li>
           <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
 Chu</a>, <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
@@ -1038,6 +1066,7 @@ inference on contact maps. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/
           </p>
           </div>
         </li>
+
         <li>
           <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
 Chu</a>, <a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
@@ -1050,6 +1079,7 @@ Nikravesh, and
 L. Zadeh, editors, <i>Feature Extraction, Foundations and
 Applications </i> &nbsp; Springer:403-418</h3>
         </li>
+
         <li>
           <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
 Chu</a>, <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
@@ -1110,6 +1140,129 @@ solution of LS-SVM. Compared with the existing algorithm (Suykens et
 al, 1999) for LS-SVM, our approach is about twice as efficient. </p>
           </div>
         </li>
+
+        <li>
+          <h3><a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
+S. Keerthi</a> and <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
+Chu</a>&nbsp;(2005)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/sgpr.pdf"><b>A
+matching pursuit approach to sparse Gaussian process regression</b></a>,
+          <i>Neural Information Processing Systems</i>
+(NIPS-18):643-650 (<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/sgpr.pdf" onclick="toggleAbstract(this, 12); return false;">View
+Abstract</a>) </h3>
+          <div style="display: none;" id="abstract-12">
+          <p>In this paper, we propose a new basis
+selection criterion for building sparse GP regression
+models that provides promising gains in accuracy as well as
+efficiency over previous methods.
+Our algorithm is much faster than that of Smola and Bartlett,
+while, in generalization it greatly outperforms the
+information gain approach proposed by Seeger et al, especially
+on the quality of predictive distributions. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/sgpr.ps">
+[ps]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/README.sgpr">
+[code]</a> </p>
+          </div>
+        </li>
+
+        <li>
+          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
+Chu</a> and <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
+Ghahramani</a>&nbsp;(2005)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gppl.pdf"> <b>Preference
+learning with Gaussian processes</b></a>, <i>International Conference
+on Machine Learning</i>
+(ICML-22):137-144 (<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gppl.pdf" onclick="toggleAbstract(this, 10); return false;">View
+Abstract</a>)</h3>
+          <div style="display: none;" id="abstract-10">
+          <p>In this paper, we propose a probabilistic kernel
+approach to
+preference learning based on Gaussian processes. A new likelihood
+function is proposed to capture the preference relations in the
+Bayesian framework. The generalized formulation is also applicable to
+tackle many multiclass problems. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gppl.pdf">[pdf]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gppl.ps">[ps]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gppl.zip">[zip]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/plgp.htm">
+[code]</a> </p>
+          </div>
+        </li>
+
+        <li>
+          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
+Chu</a> and <a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
+S. Keerthi</a>&nbsp;(2005)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icmlsvor.pdf"> <b>New
+approaches to support vector ordinal regression</b></a>,
+&nbsp;<i>International Conference on Machine Learning</i>
+(ICML-22):145-152 (<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icmlsvor.pdf" onclick="toggleAbstract(this, 9); return false;">View
+Abstract</a>)</h3>
+          <div style="display: none;" id="abstract-9">
+          <p>In this paper, we propose two new support vector
+formulations
+for ordinal regression, which optimize multiple thresholds to define
+parallel discriminant hyperplanes for the ordinal scales. Both
+approaches guarantee that the thresholds are properly ordered at the
+optimal solution. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icmlsvor.pdf">
+[pdf]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icmlsvor.ps">
+[ps]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icmlsvor.zip">
+[zip]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/svor.htm">
+[code]</a> </p>
+          </div>
+        </li>
+
+        <li>
+          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
+Chu</a> and <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
+Ghahramani</a>&nbsp;(2005)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gprl.pdf"> <b>Extensions
+of Gaussian processes for ranking:
+semi-supervised and active learning</b></a>,&nbsp;<i><a href="http://web.mit.edu/shivani/www/Ranking-NIPS-05/">Workshop
+Learning to Rank</a></i> at (NIPS-18):29-34 (<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gprl.pdf" onclick="toggleAbstract(this, 13); return false;">View
+Abstract</a>)</h3>
+          <div style="display: none;" id="abstract-13">
+          <p>Unlabelled examples in supervised learning tasks can be
+optimally
+exploited using semi-supervised methods and active learning. We
+focus on ranking learning from pairwise instance preference to
+discuss these important extensions, semi-supervised learning and
+active learning, in the probabilistic framework of Gaussian
+processes. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gprl.ps">
+[ps]</a> </p>
+          </div>
+        </li>
+
+        <li>
+          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
+Chu</a>, <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
+Ghahramani</a> and <a href="http://faculty.kgi.edu/wild/">D.
+L. Wild</a>&nbsp;(2004)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icml103.pdf"> <b>A
+graphical model for protein secondary structure
+prediction</b></a>, &nbsp;<i>International
+Conference on Machine Learning </i>(ICML-21):161-168 (<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icml103.pdf" onclick="toggleAbstract(this, 6); return false;">View
+Abstract</a>) </h3>
+          <div style="display: none;" id="abstract-6">
+          <p>In this paper, we present a graphical model that extends
+segmental semi-Markov
+models (SSMM) to exploit multiple sequence alignment profiles for
+protein structure
+prediction. A novel parameterized model is proposed as the likelihood
+function
+for the SSMM. By incorporating the information from long range
+interactions in
+beta-sheets, this model is capable of carrying out inference on contact
+maps. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icml103.pdf">
+[pdf]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icml103.ps">
+[ps]</a> <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icml103.zip">
+[zip]</a> <a href="http://public.kgi.edu/%7Echuwei/eva/submiteva.html">
+[webserver]</a> </p>
+          </div>
+        </li>
+
+        <li>
+          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
+Chu</a>, <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
+Ghahramani</a> and <a href="http://faculty.kgi.edu/wild/">D.
+L. Wild</a>&nbsp;(2004)&nbsp; <b>Protein secondary
+structure prediction using sigmoid belief networks to parameterize
+segmental
+semi-Markov models</b>, &nbsp;<i>European Symposium on
+Artificial Neural Networks </i>(ESANN-05):81-86 </h3>
+        </li>
+
+
         <li>
           <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
 Chu</a>, <a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
@@ -1133,6 +1286,24 @@ Moreover, confidence interval is provided in prediction. <a href="http://www.gat
 [code]</a> </p>
           </div>
         </li>
+
+        <li>
+          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
+Chu</a>&nbsp;(2003)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/thesis.pdf"> <b>Bayesian
+approach to support vector machines</b></a>,
+Doctoral Dissertation, <i>National University of Singapore</i>
+(<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/thesis.pdf" onclick="toggleAbstract(this, 3); return false;">View
+Abstract</a>)</h3>
+          <div style="display: none;" id="abstract-3">
+          <p>In this thesis, we develop Bayesian support vector
+machines
+for regression and classification. This work can also be regarded as
+support vector variants of Gaussian processes. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/thesis.pdf">[pdf]</a>
+          <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/thesis.zip">[zip]</a>
+          <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/README.bisvm">[code]</a>
+          </p>
+          </div>
+        </li>
         <li>
           <h3>K. Duan, <a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
 S. Keerthi</a>, <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
@@ -1143,6 +1314,7 @@ classification by soft-max combination of binary classifiers</b></a>,
 (MCS-04) Lecture
 Notes in Computer Science 2709 &nbsp; Springer:125-134</h3>
         </li>
+
         <li>
           <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
 Chu</a>, <a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
@@ -1162,122 +1334,26 @@ benefit is the class probability in making predictions. <a href="http://www.gats
           </div>
         </li>
 
+        <li>
+          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
+Chu</a>, <a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
+S. Keerthi</a> and <a href="http://guppy.mpe.nus.edu.sg/%7Empeongcj/ongcj.html">C.
+J. Ong</a>&nbsp;(2002)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gfsvm.pdf"> <b>A
+general formulation for support vector machines</b></a>,
+&nbsp;<i>International Conference on Neural Information
+Processing </i>(ICONIP-09)</h3>
+        </li>
 
-        <h3 style="font-weight: bold;">Refereed Workshop</h3>
-        <li>
-          <h3>J. Yang, Y. Chen, S. Wang, L. Li, C. Meng, M. Qiu, W. Chu
-(2017) <b><a href="http://padl.ws/papers/Paper%207.pdf">Practical
-lessons of distributed deep learning</a></b>, <i>Workshop on
-Principled Approaches to Deep Learning, at
-ICML</i>
-(<a href="http://padl.ws/" onclick="toggleAbstract(this, 170); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-170">
-          <p>With the advent of big data and big model, there are
-increasing needs on training deep learning model in distributed mode.
-Although the open source deep learning software such as Tensor- Flow
-and MXNet do support training deep learn- ing model in parallel, it is
-still a challenging task for data scientists to implement scalable and
-high performance distributed deep learning algo- rithms. In this paper,
-we share several practical lessons on optimizing distributed deep
-learning training process, including optimization strate- gies for
-typical model architecture such as DNN and CNN. For DNN, we exploit its
-computation- to-communication ratio to reduce the commu- nication
-overhead. For CNN, we find hybrid- parallelism an effective way to
-squeeze the po- tential of strong-scaling. Experiments in off-the-
-shelf deep learning software show that, with our optimization
-strategies we are able to have 10x speed-up on AlexNet against the
-standard dis- tributed implementation.</p>
-          </div>
-        </li>
-        <li>
-          <h3>X. Li, C. Guo, W. Chu, Y. Wang, J. Shavlik
-(2014) <b><a href="https://pdfs.semanticscholar.org/60cd/18f7905a8b37872c111a7d74d418274740e2.pdf">Deep
-learning powered in-session contextual ranking using clickthrough data</a></b>,
-          <i>Workshop on Personalization: Methods and Applications, at
-Neural Information Processing Systems</i>
-(NIPS) (<a href="https://pdfs.semanticscholar.org/60cd/18f7905a8b37872c111a7d74d418274740e2.pdf" onclick="toggleAbstract(this, 162); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-162">
-          <p>User interactions with search engines provide many cues
-that can be leveraged
-to improve the relevance of search results through personalization. The
-context
-information (history of queries, clicked documents, etc.) provides
-strong signals
-about users’ search intent, which can be used to personalize the search
-experience
-and improve a web search engine. We demonstrate how to generate the
-semantic
-features from in-session contextual information with deep learning
-models, and
-incorporate these semantic features into the current ranking model to
-re-rank the
-results. We evaluate our approach using a large, real-world search log
-data from a
-major commercial web search engine, and the experimental results show
-our approach
-can significantly improve the performance of the search engine.
-Furthermore,
-we also find that the domain-specific, click-based features can
-effectively
-decrease the unsatisfied clicks for the current ranking model to
-improve the search
-experience.</p>
-          </div>
-        </li>
-        <li>
-          <h3><a href="http://www.research.rutgers.edu/%7Elihong/">L. Li</a>,
-          <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a>, <a href="http://hunch.net/%7Ejl/">J. Langford</a>, <a href="http://taesupmoon.com"> T. Moon</a>, and <a href="http://www.xuanhui.me/">X. Wang</a> (2012) <b><a href="http://jmlr.csail.mit.edu/proceedings/papers/v26/li12a/li12a.pdf">An
-unbiased offline evaluation of contextual bandit algorithms with
-generalized linear models</a></b>, <i><a href="http://jmlr.csail.mit.edu/proceedings/papers/v26/">Journal of
-Machine Learning Research - Workshop and Conference Proceedings 26</a></i>
-(JMLR W&amp;CP-26) (<a href="http://jmlr.csail.mit.edu/proceedings/papers/v26/li12a/li12a.pdf" onclick="toggleAbstract(this, 161); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-161">
-          <p>Contextual bandit algorithms have become popular tools in
-online recommendation and advertising systems. Offline evaluation of
-the effectiveness of new algorithms in these applications is critical
-for protecting online user experiences but very challenging due to
-their ``partial-label'' nature. The purpose of this paper is two-fold.
-First, we review a recently proposed offline evaluation technique.
-Different from simulator-based approaches, the method is completely
-data-driven, is easy to adapt to different applications, and more
-importantly, provides provably unbiased evaluations. We argue for the
-wide use of this technique as standard practice when comparing bandit
-algorithms in real-life problems. Second, as an application of this
-technique, we compare and validate a number of new algorithms based on
-generalized linear models. Experiments using real Yahoo! data suggest
-substantial improvement over algorithms with linear models when the
-rewards are binary. <a href="http://jmlr.csail.mit.edu/proceedings/papers/v26/li12a/li12a.pdf">[pdf]</a></p>
-          </div>
-        </li>
         <li>
           <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a>&nbsp;(2006)&nbsp; <b><a href="http://ieeexplore.ieee.org/search/wrapper.jsp?arnumber=1716309">Model
-selection: an empirical study on two kernel classifiers</a></b>,&nbsp;<i>International
-Joint Conference on Neural Networks </i> (IJCNN-06):1673-1679</h3>
+Chu</a>, <a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
+S. Keerthi</a> and <a href="http://guppy.mpe.nus.edu.sg/%7Empeongcj/ongcj.html">C.
+J. Ong</a>&nbsp;(2002)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/btsvc_iconip.pdf"> <b>A
+new Bayesian design method for support vector
+classification</b></a>, &nbsp;<i>International
+Conference on Neural Information Processing </i>(ICONIP-09)</h3>
         </li>
-        <li>
-          <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a> and <a href="http://www.gatsby.ucl.ac.uk/%7Ezoubin/">Z.
-Ghahramani</a>&nbsp;(2005)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gprl.pdf"> <b>Extensions
-of Gaussian processes for ranking:
-semi-supervised and active learning</b></a>,&nbsp;<i><a href="http://web.mit.edu/shivani/www/Ranking-NIPS-05/">Workshop
-Learning to Rank</a></i> at (NIPS-18):29-34 (<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gprl.pdf" onclick="toggleAbstract(this, 13); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-13">
-          <p>Unlabelled examples in supervised learning tasks can be
-optimally
-exploited using semi-supervised methods and active learning. We
-focus on ranking learning from pairwise instance preference to
-discuss these important extensions, semi-supervised learning and
-active learning, in the probabilistic framework of Gaussian
-processes. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/gprl.ps">
-[ps]</a> </p>
-          </div>
-        </li>
+
         <li>
           <h3><a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
 S. Keerthi</a>, et al.&nbsp;(2002)&nbsp; <a href="http://www.acm.org/sigs/sigkdd/explorations/issues/4-2-2002-12/shi.pdf">
@@ -1288,25 +1364,24 @@ Explorations Newsletter</a></i>, 4(2)&nbsp; <font color="red">
 Honorable
 Mention</font> </h3>
         </li>
-        <h3 style="font-weight: bold;">Thesis</h3>
+
         <li>
           <h3><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a>&nbsp;(2003)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/thesis.pdf"> <b>Bayesian
-approach to support vector machines</b></a>,
-Doctoral Dissertation, <i>National University of Singapore</i>
-(<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/thesis.pdf" onclick="toggleAbstract(this, 3); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-3">
-          <p>In this thesis, we develop Bayesian support vector
-machines
-for regression and classification. This work can also be regarded as
-support vector variants of Gaussian processes. <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/thesis.pdf">[pdf]</a>
-          <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/thesis.zip">[zip]</a>
-          <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/README.bisvm">[code]</a>
-          </p>
-          </div>
+Chu</a>, <a href="http://guppy.mpe.nus.edu.sg/%7Empessk/">S.
+S. Keerthi</a> and <a href="http://guppy.mpe.nus.edu.sg/%7Empeongcj/ongcj.html">C.
+J. Ong</a>&nbsp;(2001)&nbsp; <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/icml.pdf"> <b>A
+unified loss function in Bayesian framework for
+support vector regression</b></a>, &nbsp;<i>International
+Conference on Machine Learning</i> (ICML-18):51-58</h3>
         </li>
+
+        
+
+
+
       </ol>
+
+
       <hr><!-- Patents -->
       <h2><a name="patents">Patents</a></h2>
       <ol>
@@ -1354,6 +1429,8 @@ US App. 20130111005 A1</h3>
 20100211568 A1</h3>
         </li>
       </ol>
+
+
       <hr><!-- Awards -->
       <h2><a name="awards">Honors &amp; Awards</a></h2>
       <ul>
@@ -1372,6 +1449,7 @@ CIKM,
           <h3>Honorable Mention Team, ACM KDD CUP, 2002</h3>
         </li>
       </ul>
+
 <!-- Software
       <h2><a name="software">Source Code</a></h2>
       <ul>
@@ -1394,7 +1472,12 @@ matching pursuit approach to sparse Gaussian process regression</a></li>
   </tbody>
 </table>
 
+</ol>
+
 <hr>
+
+
+
 <table border="0" width="100%">
 
   <tbody>
@@ -1402,7 +1485,7 @@ matching pursuit approach to sparse Gaussian process regression</a></li>
       <td width="100%">
       <h3><b> EMAIL : </b>email <i><font color="#ff0000">dot</font></i>
 chuwei <i><font color="#ff0000">at</font></i> gmail.com</h3>
-      <h3>2017.12.19</h3>
+      <h3>2021.03.24</h3>
       </td>
     </tr>
   </tbody>
