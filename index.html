@@ -13,7 +13,11 @@
  
   <link rel="stylesheet" type="text/css" href="chuwei.css">
 
-  <script type="text/javascript" src="chuwei.js"></script>
+  <script type="text/javascript" src="toggleAbstract.js"></script>
+  <script type="text/javascript" src="choosePicture.js"></script>
+  <script type = "text/JavaScript">
+    window.onload = choosePicture;
+  </script>
 
 <!--
   <script type = "text/JavaScript">
@@ -38,14 +42,15 @@
 
 <body>
 
-<!-- Introduction -->
+<!-- Introduction > -->
 <table border="0" width="100%">
   <tbody width="100%" align="left">
-    <tr>
-      <td width="40%"> <left>&nbsp;&nbsp;<a href="https://weichu.github.io/"><img src="photo.png" align="middle" height="300" width=""></a></left> <br>
+    <tr> 
+      <td width="40%"> &nbsp;&nbsp;
+      <img src="photo.jpg" id="random-image" align="middle" height="300" width=""> <br>
 
       <br>
-      <h1>&nbsp;<a href="http://chuwei.website/">CHU, WEI (褚崴)</a></h1>
+      <h1>&nbsp;<a href="https://weichu.github.io/">CHU, WEI (褚崴)</a></h1>
       <br>
 
       <left> 
@@ -194,148 +199,137 @@
 
       <li>
       <h3>F. Xu, M. Wang, W. Zhang, Y. Cheng and W. Chu (2021)
-<b><a href="">
-Discrimination-aware mechanism for fine-grained representation learning</a></b>, 
-<a href=""><i>CVPR 2021</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
+      <b><a href="">Discrimination-aware mechanism for fine-grained representation learning</a></b>, 
+      <a href="http://cvpr2021.thecvf.com/"><i>CVPR 2021</i></a>
+      (<a href="" onclick="toggleAbstract(this, 2102); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-2102"> </div>
+      </li>
 
-<li>
-          <h3>W. Hong, P. Guo, W. Zhang, J. Chen and W. Chu (2021)
-<b><a href="">
-LPSNet: a lightweight solution for fast panoptic segmentation</a></b>, 
-<a href=""><i>CVPR 2021</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
+      <li>
+      <h3>W. Hong, P. Guo, W. Zhang, J. Chen and W. Chu (2021)
+      <b><a href="">LPSNet: a lightweight solution for fast panoptic segmentation</a></b>, 
+      <a href="http://cvpr2021.thecvf.com/"><i>CVPR 2021</i></a>
+      (<a href="" onclick="toggleAbstract(this, 2101); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-2101"> </div>
+      </li>
 
-<li>
-          <h3>K. Chen, W. Xu, X. Cheng, X. Zou, Y. Zhang, L. Song, T. Wang, Y. Qi and W. Chu (2020)
-<b><a href="">
-Question Directed Graph Attention Network for Numerical Reasoning over Text</a></b>, 
-<a href=""><i>EMNLP 2020</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
+      <li>
+      <h3>K. Chen, W. Xu, X. Cheng, X. Zou, Y. Zhang, L. Song, T. Wang, Y. Qi and W. Chu (2020)
+      <b><a href="https://www.aclweb.org/anthology/2020.emnlp-main.549.pdf">Question directed graph attention network for numerical reasoning over text</a></b>, 
+      <a href="https://www.aclweb.org/anthology/2020.emnlp-main.549/"><i>EMNLP 2020:6759–6768</i></a>
+      (<a href="" onclick="toggleAbstract(this, 2001); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-2001"> 
+      <p>Numerical reasoning over texts, such as addition, subtraction, sorting and counting, is a challenging machine reading comprehension task, since it requires both natural language understanding and arithmetic computation. To address this challenge, we propose a heterogeneous graph representation for the context of the passage and question needed for such reasoning, and design a question directed graph attention network to drive multi-step numerical reasoning over this context graph. Our model, which combines deep learning and graph reasoning, achieves remarkable results in benchmark datasets such as <a href="https://allenai.org/data/drop">DROP</a>.</p>
+      </div>
+      </li>
 
-<li>
-          <h3>L. Cao, J. Chen and W. Chu (2020)
-<b><a href="">
-Variational Connectionist Temporal Classification</a></b>, 
-<a href=""><i>ECCV 2020</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
+      <li>
+      <h3>L. Cao, J. Chen and W. Chu (2020)
+      <b><a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730460.pdf">Variational connectionist temporal classification</a></b>, 
+      <a href="https://link.springer.com/chapter/10.1007/978-3-030-58604-1_28"><i>ECCV 2020:460-476</i></a>
+      (<a href="" onclick="toggleAbstract(this, 2002); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-2002">
+      <p>Connectionist Temporal Classification (CTC) is a training criterion designed for sequence labelling problems where the alignment between the inputs and the target labels is unknown. One of the key steps is to add a blank symbol to the target vocabulary. However, CTC tends to output spiky distributions since it prefers to output blank symbol most of the time. These spiky distributions show inferior alignments and the non-blank symbols are not learned sufficiently. To remedy this, we propose variational CTC (Var-CTC) to enhance the learning of non-blank symbols. The proposed Var-CTC converts the output distribution of vanilla CTC with hierarchy distribution.</p></div>
+      </li>
 
-<li>
-          <h3>X. Chen, W. Xu，K. Chen，T. Wang，S. Jiang，F. Wang，W. Chu and Y. Qi (2020)
-<b><a href="">
-SpellGCN: Incorporating Phonological and Visual Similarities into Language Models for Chinese Spelling Check</a></b>, 
-<a href=""><i>ACL 2020</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
+      <li>
+      <h3>X. Chen, W. Xu，K. Chen，T. Wang，S. Jiang，F. Wang，<a href="https://weichu.github.io/">W. Chu</a> and Y. Qi (2020)
+      <b><a href="https://www.aclweb.org/anthology/2020.acl-main.81.pdf">SpellGCN: incorporating phonological and visual similarities into language models for Chinese Spelling Check</a></b>, 
+      <a href="https://www.aclweb.org/anthology/2020.acl-main.81/"><i>ACL 2020:871–881</i></a>
+      (<a href="" onclick="toggleAbstract(this, 2003); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-2003">
+      <p>Chinese Spelling Check (CSC) is a task to detect and correct spelling errors in Chinese natural language. This paper proposes to incorporate phonological and visual similarity knowledge into language models for CSC via a specialized graph convolutional network (SpellGCN). The model builds a graph over the characters, and SpellGCN is learned to map this graph into a set of inter-dependent character classifiers. These classifiers are applied to the representations extracted by another network, such as BERT, enabling the whole network to be end-to-end trainable.</p> </div>
+      </li>
 
-<li>
-          <h3>X. Lin，W. Jian，J. He，T. Wang，and W. Chu (2020)
-<b><a href="https://www.aclweb.org/anthology/2020.acl-main.6/">
-Generating Informative Conversational Response using Recurrent Knowledge-Interaction and Knowledge-Copy</a></b>, 
-<a href=""><i>ACL 2020</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
+      <li>
+      <h3>X. Lin，W. Jian，J. He，T. Wang，and W. Chu (2020)
+      <b><a href="https://www.aclweb.org/anthology/2020.acl-main.6.pdf">Generating informative conversational response using recurrent knowledge-interaction and knowledge-copy</a></b>, 
+      <a href="https://www.aclweb.org/anthology/2020.acl-main.6/"><i>ACL 2020:41–52</i></a>
+      (<a href="" onclick="toggleAbstract(this, 2004); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-2004">
+      <p>Knowledge-driven conversation approaches have achieved remarkable research attention recently. However, generating an informative response with multiple relevant knowledge without losing fluency and coherence is still one of the main challenges. To address this issue, this paper proposes a method that uses recurrent knowledge interaction among response decoding steps to incorporate appropriate knowledge. Furthermore, we introduce a knowledge copy mechanism using a knowledge-aware pointer network to copy words from external knowledge according to knowledge attention distribution. Our joint neural conversation model which integrates recurrent Knowledge-Interaction and knowledge Copy (KIC) performs well on generating informative responses.</p>
+      </div>
+      </li>
 
-<li>
-          <h3>F. Xu, W. Zhang, Y. Cheng and W. Chu (2020)
-<b><a href="">
-Metric Learning with Equidistant and Equidistributed Triplet-based Loss for Product Image Search</a></b>, 
-<a href=""><i>WWW 2020</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
+      <li>
+      <h3>F. Xu, W. Zhang, Y. Cheng and W. Chu (2020)
+      <b><a href="https://dl.acm.org/doi/pdf/10.1145/3366423.3380094">Metric learning with equidistant and equidistributed triplet-based loss for product image search</a></b>, 
+      <a href="https://www2020.thewebconf.org/"><i>WWW 2020:57–65</i></a>
+      (<a href="" onclick="toggleAbstract(this, 2005); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-2005">
+      <p>Product image search in E-commerce systems is a challenging task, because of a huge number of product classes, low intra-class similarity and high inter-class similarity. Deep metric learning, based on paired distances independent of the number of classes, aims to minimize intra-class variances and inter-class similarity in feature embedding space. Most existing approaches strictly restrict the distance between samples with fixed values to distinguish different classes of samples. However, the distance of paired samples has various magnitudes during different training stages. Therefore, it is difficult to directly restrict absolute distances with fixed values. In this paper, we propose a novel Equidistant and Equidistributed Triplet-based (EET) loss function to adjust the distance between samples with relative distance constraints. By optimizing the loss function, the algorithm progressively maximizes intra-class similarity and inter-class variances. Specifically, 1) the equidistant loss pulls the matched samples closer by adaptively constraining two samples of the same class to be equally distant from another one of a different class in each triplet, 2) the equidistributed loss pushes the mismatched samples farther away by guiding different classes to be uniformly distributed while keeping intra-class structure compact in embedding space. Extensive experimental results on product search benchmarks verify the improved performance of our method. We also achieve improvements on other retrieval datasets, which show superior generalization capacity of our method in image search.</p>
+      </div>
+      </li>
 
-<li>
-          <h3>S. Wang, B. Zhu, C. Li, M. Wu, J. Zhang, W. Chu, and Y. Qi (2020)
-<b><a href="">
-Riemannian Proximal Policy Optimization</a></b>, 
-<a href=""><i>Computer and Information Science 13(3)</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
+      <li>
+      <h3>S. Wang, B. Zhu, C. Li, M. Wu, J. Zhang, W. Chu, and Y. Qi (2020)
+      <b><a href="http://www.ccsenet.org/journal/index.php/cis/article/download/0/0/43372/45455">Riemannian proximal policy optimization</a></b>, 
+      <a href="http://www.ccsenet.org/journal/index.php/cis/article/view/0/43372"><i>Computer and Information Science 13(3)</i></a>
+      (<a href="" onclick="toggleAbstract(this, 2006); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-2006">
+      <p>we propose a general Riemannian proximal optimization algorithm with guaranteed convergence to solve Markov decision process (MDP) problems. To model policy functions in MDP, we employ Gaussian mixture model (GMM) and formulate it as a non-convex optimization problem in the Riemannian space of positive semidefinite matrices. For two given policy functions, we also provide its lower bound on policy improvement by using bounds derived from the Wasserstein distance of GMMs. Preliminary experiments show the efficacy of our proposed Riemannian proximal policy optimization algorithm.</p></div>
+      </li>
 
+      <li>
+      <h3>W. Zhang, Y. Cheng, X. Guo, Q. Guo, J. Wang, Q. Wang, C. Jiang, M. Wang, F. Xu and W. Chu (2020)
+      <b><a href="https://ojs.aaai.org/index.php/AAAI/article/view/7110/6964">Automatic car damage assessment system: reading and understanding videos as professional insurance inspectors</a></b>, 
+      <a href="https://ojs.aaai.org//index.php/AAAI/article/view/7110"><i>AAAI 2020:13646-13647 Demonstration Track</i></a>
+      (<a href="" onclick="toggleAbstract(this, 2007); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-2007">
+      <p>We demonstrate a car damage assessment system in car insurance field based on artificial intelligence techniques, which can exempt insurance inspectors from checking cars on site and help people without professional knowledge to evaluate car damages when accidents happen. Unlike existing approaches, we utilize videos instead of photos to interact with users to make the whole procedure as simple as possible. We adopt object and video detection and segmentation techniques in computer vision, and take advantage of multiple frames extracted from videos to achieve high damage recognition accuracy. The system uploads video streams captured by mobile devices, recognizes car damage on the cloud asynchronously and then returns damaged components and repair costs to users. The system evaluates car damages and returns results automatically and effectively in seconds, which reduces laboratory costs and decreases insurance claim time significantly.</p>
+      </div>
+      </li>
 
-<li>
-          <h3>W. Zhang, Y. Cheng, X. Guo, Q. Guo, J. Wang, Q. Wang, C. Jiang, M. Wang, F. Xu and W. Chu (2020)
-<b><a href="">
-Automatic Car Damage Assessment System: Reading and Understanding Videos as Professional Insurance Inspectors</a></b>, 
-<a href=""><i>AAAI 2020 Demo Paper</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
+      <li>
+      <h3>W. Huang, X. Cheng, K. Chen, T. Wang, W. Chu (2020)
+      <b><a href="https://www.aclweb.org/anthology/2020.coling-main.186.pdf">Towards fast and accurate neural Chinese word segmentation with multi-criteria learning</a></b>, 
+      <a href="https://www.aclweb.org/anthology/2020.coling-main.186/"><i>COLING 2020:2062-2072</i></a>
+      (<a href="" onclick="toggleAbstract(this, 2008); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-2008">
+      <p>The ambiguous annotation criteria lead to divergence of Chinese Word Segmentation (CWS) datasets in various granularities. Multi-criteria Chinese word segmentation aims to capture various annotation criteria among datasets and leverage their common underlying knowledge. In this paper, we propose a domain adaptive segmenter to exploit diverse criteria of various datasets. Our model is based on Bidirectional Encoder Representations from Transformers (BERT), which is responsible for introducing open-domain knowledge. Private and shared projection layers are proposed to capture domain-specific knowledge and common knowledge, respectively. We also optimize computational efficiency via distillation, quantization, and compiler optimization. Experiments show that our segmenter outperforms the previous state of the art (SOTA) models on 10 CWS datasets with superior efficiency.</p></div>
+      </li>
 
-<li>
+      <li>
+      <h3>C. Li, X. Yan, X. Deng, Y. Qi, W. Chu, L. Song, J. Qiao, J. He and J. Xiong (2019)
+      <b><a href="https://ojs.aaai.org/index.php/AAAI/article/view/3840/3718">Latent dirichlet allocation for Internet price war</a></b>, 
+      <a href="https://ojs.aaai.org//index.php/AAAI/article/view/3840"><i>AAAI 2019:639-646</i></a>
+      (<a href="" onclick="toggleAbstract(this, 1901); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-1901">
+      <p></p></div>
+      </li>
 
-          <h3>C. Li, X. Yan, X. Deng, Y. Qi, W. Chu, L. Song, J. Qiao, J. He and J. Xiong (2019)
-<b><a href="">
-Latent Dirichlet Allocation for Internet Price War</a></b>, 
-<a href=""><i>AAAI 2019</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
+      <li>
+      <h3>X. Cheng, W. Xu, T. Wang, W. Chu, W. Huang, K. Chen and J. Hu (2019)
+      <b><a href="https://www.aclweb.org/anthology/K19-1090.pdf">Variational semi-supervised aspect-term sentiment analysis via transformer</a></b>, 
+      <a href="https://www.aclweb.org/anthology/K19-1090/"><i>CoNLL 2019:961-969</i></a>
+      (<a href="" onclick="toggleAbstract(this, 1902); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-1902">
+      <p>Aspect-term sentiment analysis (ATSA) is a long-standing challenge in natural language process. It requires fine-grained semantical reasoning about a target entity appeared in the text. As manual annotation over the aspects is laborious and time-consuming, the amount of labeled data is limited for supervised learning. This paper proposes a semi-supervised method for the ATSA problem by using the Variational Autoencoder based on Transformer. The model learns the latent distribution via variational inference. By disentangling the latent representation into the aspect-specific sentiment and the lexical context, our method induces the underlying sentiment prediction for the unlabeled data, which then benefits the ATSA classifier. Our method is classifier-agnostic, i.e., the classifier is an independent module and various supervised models can be integrated. Experimental results are obtained on the SemEval 2014 task 4 and show that our method is effective with different the five specific classifiers and outperforms these models by a significant margin.</p></div>
+      </li>
 
-<li>
+      <li>
+      <h3>W. Huang, X. Cheng, T. Wang and W. Chu (2019)
+      <b><a href="https://arxiv.org/abs/1908.05908">BERT-based multi-head selection for joint entity-relation extraction</a></b>, 
+      <a href="http://tcci.ccf.org.cn/conference/2019/"><i>NLPCC (2) 2019:713-723</i></a>
+      (<a href="" onclick="toggleAbstract(this, 1903); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-1903"><p>In this paper, we report our method for the Information Extraction task in 2019 Language and Intelligence Challenge. We incorporate BERT into the multi-head selection framework for joint entity-relation extraction. This model extends existing approaches from three perspectives. First, BERT is adopted as a feature extraction layer at the bottom of the multi-head selection framework. We further optimize BERT by introducing a semantic-enhanced task during BERT pre-training. Second, we introduce a large-scale Baidu Baike corpus for entity recognition pre-training, which is of weekly supervised learning since there is no actual named entity label. Third, soft label embedding is proposed to effectively transmit information between entity recognition and relation extraction. Combining these three contributions, we enhance the information extracting ability of the multi-head selection model and achieve F1-score 0.876 on testset-1 with a single model. By ensembling four variants of our model, we finally achieve F1 score 0.892 (1st place) on testset-1 and F1 score 0.8924 (2nd place) on testset-2.</p></div>
+      </li>
 
-          <h3>X. Cheng, W. Xu, T. Wang, W. Chu, W. Huang, K. Chen and J. Hu (2019)
-<b><a href="">
-Variational Semi-Supervised Aspect-Term Sentiment Analysis via Transformer</a></b>, 
-<a href=""><i>CoNLL 2019 : 961-969</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
+      <li>
+      <h3>W. Sui, Q. Zhang, J. Yang and W. Chu (2018)
+      <b><a href="https://arxiv.org/pdf/1811.08611">A novel integrated framework for learning both text detection and recognition</a></b>, 
+      <a href="https://arxiv.org/pdf/1811.08611"><i>ICPR 2018:2233-2238</i></a>
+      (<a href="" onclick="toggleAbstract(this, 1801); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-1801"> </div>
+      </li>
 
-<li>
-
-          <h3>W. Huang, X. Cheng, T. Wang and W. Chu (2019)
-<b><a href="">
-BERT-Based Multi-head Selection for Joint Entity-Relation Extraction</a></b>, 
-<a href=""><i>NLPCC (2) 2019: 713-723</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
-
-<li>
-
-          <h3>W. Sui, Q. Zhang, J. Yang and W. Chu (2018)
-<b><a href="">
-A Novel Integrated Framework for Learning both Text Detection and Recognition</a></b>, 
-<a href=""><i>ICPR 2018: 2233-2238</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
-
-	<li>
-          <h3>T. Yin, X. Deng, Y. Qi, W. Chu, J. Pan, X. Yan and J. Xiong (2018)
-<b><a href="">
-Personalized Behavior Prediction with Encoder-to-Decoder Structure</a></b>, 
-<a href=""><i>NAS 2018: 1-10</i></a>
-(<a href="" onclick="toggleAbstract(this, 171); return false;">View
-Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
-        </li>
+	    <li>
+      <h3>T. Yin, X. Deng, Y. Qi, W. Chu, J. Pan, X. Yan and J. Xiong (2018)
+      <b><a href="https://ieeexplore.ieee.org/document/8515696">Personalized behavior prediction with encoder-to-decoder structure</a></b>, 
+      <a href="https://ieeexplore.ieee.org/document/8515696"><i>NAS 2018:1-10</i></a>
+      (<a href="" onclick="toggleAbstract(this, 1802); return false;">View Abstract</a>)</h3>
+      <div style="display: none;" id="abstract-1802"> </div>
+      </li>
 
         <li>
           <h3>J. Yu, M. Qiu, J. Jiang, S. Song, J. Huang, W. Chu and H.
@@ -344,9 +338,9 @@ domain relationships for transfer learning on Chatbot-based question
 answering systems</a></b>, <a href="http://www.wsdm-conference.org/2018/"><i>ACM International
 Conference on
 Web Search and Data Mining</i></a>
-(WSDM-11) (<a href="https://arxiv.org/abs/1711.08726" onclick="toggleAbstract(this, 171); return false;">View
+(WSDM-11) (<a href="https://arxiv.org/abs/1711.08726" onclick="toggleAbstract(this, 1803); return false;">View
 Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-171"> </div>
+          <div style="display: none;" id="abstract-1803"> </div>
         </li>
 
         <li>
@@ -357,9 +351,9 @@ neural networks</a></b>, <a href="http://icdm2017.bigke.org/"><i>IEEE
 International
 Conference on
 Data Mining</i></a>
-(ICDM) (<a href="https://www.computer.org/csdl/proceedings/icdm/2017/3835/00/3835a395.pdf" onclick="toggleAbstract(this, 172); return false;">View
+(ICDM) (<a href="https://www.computer.org/csdl/proceedings/icdm/2017/3835/00/3835a395.pdf" onclick="toggleAbstract(this, 1701); return false;">View
 Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-172"> </div>
+          <div style="display: none;" id="abstract-1701"> </div>
         </li>
 
         <li>
@@ -367,18 +361,18 @@ Abstract</a>)</h3>
 Assist: an intelligent assistant for creating an innovative E-commerce
 experience</a></b>, <a href="http://cikm2017.org/"><i>ACM
 International Conference on Information and Knowledge Management</i></a>
-(CIKM) (<a href="https://www.researchgate.net/publication/320885511_AliMe_Assist_An_Intelligent_Assistant_for_Creating_an_Innovative_E-commerce_Experience" onclick="toggleAbstract(this, 173); return false;">View
+(CIKM) (<a href="https://www.researchgate.net/publication/320885511_AliMe_Assist_An_Intelligent_Assistant_for_Creating_an_Innovative_E-commerce_Experience" onclick="toggleAbstract(this, 1702); return false;">View
 Abstract</a>)&nbsp; <font color="red">Winner of the Best Demo Award</font></h3>
-          <div style="display: none;" id="abstract-173"> </div>
+          <div style="display: none;" id="abstract-1702"> </div>
         </li>
 
         <li>
           <h3>M. Qiu, et al. (2017) <b><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/acl2017.pdf">AliMe
 Chat: a sequence to sequence and rerank based ChatBot engine</a></b>, <a href="http://http://acl2017.org/"><i>Annual Meeting of the
 Association for Computational Linguistics</i></a>
-(ACL-55 Short Paper) (<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/acl2017.pdf" onclick="toggleAbstract(this, 152); return false;">View
+(ACL-55 Short Paper) (<a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/acl2017.pdf" onclick="toggleAbstract(this, 1703); return false;">View
 Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-152"> </div>
+          <div style="display: none;" id="abstract-1703"> </div>
         </li>
 
 
@@ -388,9 +382,9 @@ Abstract</a>)</h3>
 lessons of distributed deep learning</a></b>, <i>Workshop on
 Principled Approaches to Deep Learning, at
 ICML</i>
-(<a href="http://padl.ws/" onclick="toggleAbstract(this, 170); return false;">View
+(<a href="http://padl.ws/" onclick="toggleAbstract(this, 1704); return false;">View
 Abstract</a>)</h3>
-          <div style="display: none;" id="abstract-170">
+          <div style="display: none;" id="abstract-1704">
           <p>With the advent of big data and big model, there are
 increasing needs on training deep learning model in distributed mode.
 Although the open source deep learning software such as Tensor- Flow
@@ -412,11 +406,11 @@ standard dis- tributed implementation.</p>
         <li>
           <h3>B. Bi, <a href="http://research.microsoft.com/en-us/um/people/haoma/">H. Ma</a>,
 B. Hsu, <a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/">W.
-Chu</a>, K. Wang and J. Cho (2015) <b><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/BennettSIGIR2012.pdf">Learning
-to recommend related entities to search users</a></b>, <a href="http://www.wsdm-conference.org/2015/"><i>ACM International
+Chu</a>, K. Wang and J. Cho (2015) <b><a href="http://www.gatsby.ucl.ac.uk/%7Echuwei/paper/BennettSIGIR2012.pdf">Learning to recommend related entities to search users</a></b>, <a href="http://www.wsdm-conference.org/2015/"><i>ACM International
 Conference on
-Web Search and Data Mining</i></a>
-(WSDM-08) (<a href="http://dl.acm.org/citation.cfm?id=2685304" onclick="toggleAbstract(this, 135); return false;">View
+Web Search and Data Mining</i>
+(WSDM-08):139–148</a>
+(<a href="http://dl.acm.org/citation.cfm?id=2685304" onclick="toggleAbstract(this, 135); return false;">View
 Abstract</a>)</h3>
           <div style="display: none;" id="abstract-135">
           <p>Over the past few years, major web search engines have
@@ -483,30 +477,18 @@ Neural Information Processing Systems</i>
 Abstract</a>)</h3>
           <div style="display: none;" id="abstract-162">
           <p>User interactions with search engines provide many cues
-that can be leveraged
-to improve the relevance of search results through personalization. The
-context
-information (history of queries, clicked documents, etc.) provides
-strong signals
-about users’ search intent, which can be used to personalize the search
-experience
-and improve a web search engine. We demonstrate how to generate the
-semantic
-features from in-session contextual information with deep learning
-models, and
-incorporate these semantic features into the current ranking model to
-re-rank the
-results. We evaluate our approach using a large, real-world search log
-data from a
-major commercial web search engine, and the experimental results show
-our approach
-can significantly improve the performance of the search engine.
-Furthermore,
-we also find that the domain-specific, click-based features can
-effectively
-decrease the unsatisfied clicks for the current ranking model to
-improve the search
-experience.</p>
+that can be leveraged to improve the relevance of search results through personalization. The
+context information (history of queries, clicked documents, etc.) provides
+strong signals about users’ search intent, which can be used to personalize the search
+experience and improve a web search engine. We demonstrate how to generate the
+semantic features from in-session contextual information with deep learning
+models, and incorporate these semantic features into the current ranking model to
+re-rank the results. We evaluate our approach using a large, real-world search log
+data from a major commercial web search engine, and the experimental results show
+our approach can significantly improve the performance of the search engine.
+Furthermore, we also find that the domain-specific, click-based features can
+effectively decrease the unsatisfied clicks for the current ranking model to
+improve the search experience.</p>
           </div>
         </li>
 
@@ -571,7 +553,7 @@ improving personalization in search systems. </p>
 (2013) <b><a href="http://dl.acm.org/citation.cfm?id=2488507">Learning
 to extract cross-session search tasks</a></b>, <i>International World
 Wide Web Conference</i>
-(WWW-22) (<a href="http://dl.acm.org/citation.cfm?id=2488507" onclick="toggleAbstract(this, 139); return false;">View
+(WWW-22):1353–1364 (<a href="http://dl.acm.org/citation.cfm?id=2488507" onclick="toggleAbstract(this, 139); return false;">View
 Abstract</a>)</h3>
           <div style="display: none;" id="abstract-139">
           <p>Search tasks, comprising a series of search queries
