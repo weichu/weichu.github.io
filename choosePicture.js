@@ -1,5 +1,5 @@
 var images = [
-  "ski.jpg",
+  "photo.jpg",
   "photo.jpg"
 ];
 function choosePicture()
