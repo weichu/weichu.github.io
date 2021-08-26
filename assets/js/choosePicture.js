@@ -1,6 +1,6 @@
 var images = [
-  "photo.jpg",
-  "photo.jpg"
+  "assets/images/photo.jpg",
+  "assets/images/photo.png"
 ];
 function choosePicture()
 {
