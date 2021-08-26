@@ -1,3 +1,3 @@
 # weichu.github.io
-project website
+homepage project, 
 including a static webpage
