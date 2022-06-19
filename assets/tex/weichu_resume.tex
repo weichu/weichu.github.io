@@ -1,0 +1,539 @@
+%% $Id: cv-us.tex,v 1.8 2004/12/31 17:07:33 jrblevin Exp $
+%%----------------------------------------------------------------------------
+%% The layout of this resume is based on Michael Forman's CV template
+%% at http://www.Michael-Forman.com/vitae/.  I have modified his template
+%% to work with LaTeX 2e using res.cls instead of res.sty.  I have also
+%% included the hyperref package for including hypertext links in pdfs.
+%%
+%% Content is Copyright (C) 2004 Jason Blevins <jrblevin@sdf.lonestar.org>
+%%----------------------------------------------------------------------------
+%% To Do:
+%%   * Get the pdf information section working with latex 2e
+%%   * Add descriptions of Phi Beta Kappa and Phi Kappa Phi
+%%   * Update address and telephone number
+%%   * Add more details about positions
+%%----------------------------------------------------------------------------
+\RequirePackage{ifthen}
+\newcommand{\ite}{\ifthenelse}
+\newcommand{\bl}{\boolean}
+%-----------------------------------------------------------------------------
+\newboolean{ref}
+\setboolean{ref}{false}
+
+\long\def\comment#1{}
+
+\documentclass[line,10pt,final]{res}
+%\documentclass[margin,line,10pt,final]{res}
+%\documentclass[overlapped,line,11pt,draft]{res}
+%-----------------------------------------------------------------------------
+\usepackage[colorlinks,urlcolor=black]{hyperref}
+\usepackage{setspace}
+%\usepackage{CJKutf8}
+%-----------------------------------------------------------------------------
+%% % To enable extended pdf support, add pdftex and the following to the
+%% % hyperref \usepackage line in the [..] section:
+%%
+%% pdftitle={Curriculum Vitae},
+%% pdfauthor={Jason R. Blevins},
+%% pdfcreator={pdfLaTeX},
+%% pdfproducer={$Id: cv-us.tex,v 1.8 2004/12/31 17:07:33 jrblevin Exp $},
+%% pdfsubject={Curriculum Vitae},
+%% pdfkeywords={Applied Mathematics Economics Computer Science
+%%     Differential Equations TANH method hyperbolic tangent centroid
+%%     decomposition updating singular value decomposition linear algebra
+%%     microeconomics System Administration Linux Unix German}
+%-----------------------------------------------------------------------------
+\def\Cplusplus{{\rm C\raise.5ex\hbox{\small ++}}}
+%-----------------------------------------------------------------------------
+
+
+\begin{document}
+
+\name{{\Large \bf Wei Chu \vskip 0.1cm }}
+
+%\address{
+%}
+%\address{
+%}
+
+\begin{resume}
+
+%---------------------------------------------------------------------------
+%% %% Other possible sections:
+%% \section{\sc Special Skills}
+%% \section{\sc Patents}
+%% \section{\sc Journal Publications}
+%% \section{\sc Refereed Conference Proceedings}
+%% \section{\sc Conference Presentations}
+%------------------------------------------------------------------------------
+
+\begin{format}
+\title{l}\employer{r}\\
+\location{l}\dates{r}\\
+\body\\
+\end{format}
+
+\singlespace
+%---------------------------------------------------------------------------
+
+\section{\sc Personal Information}
+\vskip 0.2cm
+
+\begin{minipage}{1.15\linewidth}
+  \begin{minipage}{0.35\linewidth}
+    U.S. Permanent Resident \\
+    Phone: 206-471-4732\\
+  \end{minipage}
+  \hspace{\fill}
+  \begin{minipage}{0.75\linewidth}
+    Email: {\tt email.chuwei@gmail.com} \\
+    Homepage: {\tt https://weichu.github.io/} \\
+    %LinkedIn: {\tt https://www.linkedin.com/in/chuwei/} \\
+  \end{minipage}
+\end{minipage}
+
+%---------------------------------------------------------------------------
+\section{\sc About Me} 
+I am a seasoned R\&D team leader and machine learning researcher, with $\sim$20 years of well-balanced academic and industry experience. I have published 50+ papers at top-tier conferences and journals and have received over 10,000 citations according to Google Scholar.
+
+I am an expert in statistical machine learning and have completed a 3-year postdoc training in probabilistic kernel machines at the Gatsby Unit, UCL. I also did research at Columbia University and Yahoo! Labs. I gained experience on recommender systems at Yahoo! Labs and Microsoft Bing, to model user behavior from web-scale clickstream data and design an unbiased offline evaluator for content optimization. 
+
+I have extended my knowledge scope to congitive intelligence through deep learning techniques. At Alibaba Group, I led a team to develop a distributed large-scale learning platform, and deliver the platform product to Alibaba Cloud. Now I lead a team at Ant Group to develop multi-modal learning solutions for computer vision, natural language understanding and knowledge graphs. 
+
+I am looking for opportunities to design and deliver learning algorithms that transform large-scale machine-readable data into human-comprehensible knowledge that not only has a major impact on human life, but also makes machine intelligence more equitable and trustworthy.
+
+%recommender systems
+%statistical machine learning 
+%congnitive intelligence 
+%multi-modality learning
+
+%---------------------------------------------------------------------------
+
+
+
+\section{\sc Working Experience} %
+
+{\bf Senior Director of Engineering}, Jul. 2018 -- present  
+\newline {\bf Director of Engineering}, Jul. 2017 -- Jul. 2018  
+\newline {Cognitive Computing, Ant Group, Alibaba Group, Bellevue, USA}
+\newline {Leading an R\&D team of 150+ researchers and engineers to develop multi-modal learning solutions for computer vision, natural language understanding and knowledge graph.}
+
+{\bf Director of Engineering}, Nov. 2014 -- Jul. 2017  
+\newline {Large Scale Learning, Alibaba Cloud, Alibaba Group, Hangzhou, China}
+\newline {An R\&D team leader to develop a distributed machine learning platform, and deliver the platform product PAI 2.0 to Alibaba Cloud, including the implementation of hundreds of distributed learning algorithms on clusters and online services of predictive models.}
+
+
+{\bf Principal Applied Scientist Lead}, Jan. 2014 -- Nov. 2014 \\
+{\bf Senior Applied Researcher}, May 2011 -- Jan. 2014 
+\newline {Contextual Relevance, Bing, Microsoft, Seattle, USA}
+\newline {A team leader at Microsoft Bing to deliver personalized search service.}
+
+{\bf Scientist}, Jan. 2008 -- May 2011 
+\newline {Audience Science, Yahoo! Lab, Sunnyvale, USA}
+\newline {Working with colleagues on web-scale user click streams for content optimization.}
+
+{\bf Associate Research Scientist}, Jan. 2006 -- Jan. 2008
+\newline {Center for Computational Learning Systems, Columbia University, New York, USA}\newline {Conducting independent research on pragmatic Bayesian techniques.}
+
+\comment{
+
+\end{position}
+\title{\bf Associate Research Scientist \\ \bf Jan. 2006 -- present}
+\employer{\small \em Center for Computational Learning Systems\\
+Columbia University, New York, USA} \location{}
+\dates{}
+\begin{position}
+\end{position}
+\vskip -1.2cm
+
+\title{\bf Associate Research Scientist \\ \bf Jan. 2006 -- Jan. 2008}
+\employer{\small \em Center for Computational Learning Systems\\
+Columbia University, New York, USA} \location{}
+\dates{}
+\begin{position}
+Supervised by David L. Waltz, work on the ConEd project.
+\end{position}
+
+\title{\bf Research Fellow \\ \bf Feb. 2003 -- Jan. 2006} 
+\employer{\small \em Gatsby Computational Neuroscience Unit\\
+University College London, London, UK} \location{}
+\dates{}
+\begin{position}
+In collaborations with Zoubin Ghahramani and David L. Wild,
+undertook independent research on machine learning and
+Bioinformatics, such as protein structure prediction and
+microarray data analysis.
+\end{position}
+
+\title{\bf Challenge Participant\\ \bf Oct. 2003 -- Nov. 2003}
+\employer{\small \em Gatsby Computational Neuroscience Unit\\
+University College London, London, UK} \location{}
+\dates{}
+\begin{position}
+Participated in the NIPS 2003 feature selection challenge using
+the algorithm of Bayesian support vector machines developed in my
+doctoral thesis, which yielded the best entry on the Madelon data
+set according to the criterion of the organizers.
+\end{position}
+
+\title{\bf Data Mining Team Member \\ \bf Apr. 2002 -- Jun. 2002}
+\employer{\small \em Dept. of Mechanical Engineering \\ National
+University of Singapore} \location{}
+\dates{}
+\begin{position}
+As a member of the team from NUS awarded honorable mention on the
+KDD cup 2002, involved in designing a learning machine for the
+competition task that can assist genome annotators by
+automatically extracting information from scientific articles.
+\end{position}
+
+\title{\bf Research Scholar \\ \bf Jul. 1999 -- Jan. 2003}
+\employer{\small \em Dept. of Mechanical Engineering \\ National
+University of Singapore} \location{}
+\dates{}
+\begin{position}
+Under the joint guidance of S. Sathiya Keerthi and Chong Jin Ong,
+carried out doctoral-oriented research on the issue of model
+selection in support vector machines for multivariate nonlinear
+regression and classification.
+\end{position}
+
+\title{\bf Research Graduate \\ \bf Jun. 1996 -- Jan. 1998}
+\employer{\small \em The $3^{rd}$ Research Academy of CASC \\
+Beijing, P.R. China} \location{}
+\dates{}
+\begin{position}
+Applied the Global Positioning System (GPS) attitude determination
+techniques to rectify the azimuth of Inertial Navigation Systems.
+The main results have been written up as a paper published in {\em
+Journal of Chinese Inertial Technology}, 7(3), Sept. 1999.
+\end{position}
+
+}
+
+%------------------------------------------------------------------------------
+
+\section{\sc Education}
+
+
+{\bf Post Doctoral}, Feb. 2003 -- Jan. 2006 \newline {Gatsby Computational Neuroscience Unit, University College London (UCL), UK}
+\newline {Advisor: Prof. Zoubin Ghahramani}
+
+{\bf Ph.D.}, Jul. 1999 -- Jan. 2003 
+\newline {National University
+of Singapore (NUS), Singapore}
+\newline {Advisor: Prof. Sathiya Keerthi and Prof. Chong Jin Ong}
+
+{\bf Master of Engineering}, Sept. 1995 -- Jan. 1998 \newline
+%Major: Inertial Navigation Technology and Equipment \newline
+{Harbin Institute of Technology, Harbin, China
+%\& the $3^{rd}$ Research Academy of China Aerospace Corporation (CASC),
+%Beijing, China
+}
+
+{\bf Bachelor of Engineering}, Sept. 1991 -- Jul. 1995 
+%\newline {Major: Automatic Control}
+\newline {Harbin Engineering University, Harbin, China}
+
+
+
+%------------------------------------------------------------------------------
+
+\begin{enumerate}
+
+\section{\sc Publications}
+
+\item W. Hong, J. Lao, W. Ren, J. Wang, J. Chen,  {\bf W. Chu} (2022) Training object detectors from scratch: An empirical study in the era of vision transformer, in Proc. of CVPR 2022  
+\item H. Wang, T.-W. Chang, T. Liu, J. Huang, Z. Chen, C. Yu, R. Li,  {\bf W. Chu} (2022) ESCM2: Entire space counterfactual multi-task model for post-click conversion rate estimation, in Proc. of SIGIR 2022  
+\item K. Ji, J. Liu, W. Hong, L. Zhong, J. Wang, J. Chen,  {\bf W. Chu} (2022) CRET: Cross-modal retrieval transformer for efficient text-video retrieval, in Proc. of SIGIR 2022  
+\item M. Li, X. Lin, X. Chen, J. Chang, Q. Zhang, F. Wang, T. Wang, Z. Liu,  {\bf W. Chu}, D. Zhao and R. Yan (2022) Keywords and instances: A hierarchical contrastive learning framework unifying hybrid granularities for text generation, in Proc. of ACL 2022  
+\item F. Yu, K. Huang, M. Wang, Y. Cheng,  {\bf W. Chu}, and C. Li (2022) Width \& depth pruning for vision transformers, in Proc. of AAAI 2022  
+\item H. Huang, Y. Wang, Z. Chen, Y. Zhang, Y. Li, Z. Tang,  {\bf W. Chu}, J. Chen, W. Lin, and K.-K. Ma (2022) CMUA-Watermark: A cross-model universal adversarial watermark for combating deepfakes, in Proc. of AAAI 2022  
+\item L. Chao, J. He, T. Wang and  {\bf W. Chu} (2021) PairRE: Knowledge graph embeddings via paired relation vectors, ACL 2021: 4360-4369  
+\item F. Xu, M. Wang, W. Zhang, Y. Cheng and  {\bf W. Chu} (2021) Discrimination-aware mechanism for fine-grained representation learning, CVPR 2021  
+\item W. Hong, P. Guo, W. Zhang, J. Chen and  {\bf W. Chu} (2021) LPSNet: A lightweight solution for fast panoptic segmentation, CVPR 2021  
+\item W. Hong, K. Ji, J. Liu, J. Wang, J. Chen and  {\bf W. Chu} (2021) GilBERT: Generative vision-language pre-training for image-text retrieval, SIGIR 2021: 1379-1388  
+\item C. Jiang, K. Huang, S. He, X. Yang, W. Zhang, X. Zhang, Y. Cheng, L. Yang, Q. Wang, F. Xu, T. Pan and  {\bf W. Chu} (2021) Learning segment similarity and alignment in large-scale content based video retrieval, ACM MM 2021  
+\item K. Chen, W. Xu, X. Cheng, X. Zou, Y. Zhang, L. Song, T. Wang, Y. Qi and  {\bf W. Chu} (2020) Question directed graph attention network for numerical reasoning over text, EMNLP 2020:6759-6768  
+\item L. Chao, J. Chen and  {\bf W. Chu} (2020) Variational connectionist temporal classification, ECCV 2020:460-476  
+\item X. Chen, W. Xu, K. Chen, T. Wang, S. Jiang, F. Wang,  {\bf W. Chu} and Y. Qi (2020) SpellGCN: Incorporating phonological and visual similarities into language models for Chinese Spelling Check, ACL 2020:871-881  
+\item X. Lin, W. Jian, J. He, T. Wang, and  {\bf W. Chu} (2020) Generating informative conversational response using recurrent knowledge-interaction and knowledge-copy, ACL 2020:41-52  
+\item F. Xu, W. Zhang, Y. Cheng and  {\bf W. Chu} (2020) Metric learning with equidistant and equidistributed triplet-based loss for product image search, WWW 2020:57-65  
+\item S. Wang, B. Zhu, C. Li, M. Wu, J. Zhang,  {\bf W. Chu}, and Y. Qi (2020) Riemannian proximal policy optimization, Computer and Information Science 13(3)  
+\item W. Zhang, Y. Cheng, X. Guo, Q. Guo, J. Wang, Q. Wang, C. Jiang, M. Wang, F. Xu and  {\bf W. Chu} (2020) Automatic car damage assessment system: reading and understanding videos as professional insurance inspectors, AAAI 2020:13646-13647 Demonstration Track  
+\item W. Huang, X. Cheng, K. Chen, T. Wang,  {\bf W. Chu} (2020) Towards fast and accurate neural Chinese word segmentation with multi-criteria learning, COLING 2020:2062-2072  
+\item C. Li, X. Yan, X. Deng, Y. Qi,  {\bf W. Chu}, L. Song, J. Qiao, J. He and J. Xiong (2019) Latent dirichlet allocation for Internet price war, AAAI 2019:639-646  
+\item X. Cheng, W. Xu, T. Wang,  {\bf W. Chu}, W. Huang, K. Chen and J. Hu (2019) Variational semi-supervised aspect-term sentiment analysis via transformer, CoNLL 2019:961-969  
+\item W. Huang, X. Cheng, T. Wang and  {\bf W. Chu} (2019) BERT-based multi-head selection for joint entity-relation extraction, NLPCC (2) 2019:713-723  
+\item W. Sui, Q. Zhang, J. Yang and  {\bf W. Chu} (2018) A novel integrated framework for learning both text detection and recognition, ICPR 2018:2233-2238  
+\item T. Yin, X. Deng, Y. Qi,  {\bf W. Chu}, J. Pan, X. Yan and J. Xiong (2018) Personalized behavior prediction with encoder-to-decoder structure, NAS 2018:1-10  
+\item J. Yu, M. Qiu, J. Jiang, J. Huang, S. Song, {\bf W. Chu} and H. Chen (2018) Modelling domain relationships for transfer learning on retroeval-based question answering systems in E-commerce, ACM International Conference on Web Search and Data Mining (WSDM-11):682-690  
+\item M. Qiu, P. Zhao, K. Zhang, X. Shi, X. Wang, J. Huang and {\bf W. Chu} (2017) A short-term rainfall prediction model using multi-task convolutional neural networks, IEEE International Conference on Data Mining (ICDM)  
+\item F. Li et al. (2017) AliMe Assist: an intelligent assistant for creating an innovative E-commerce experience, ACM International Conference on Information and Knowledge Management (CIKM) {\em Winner of the Best Demo Award}
+\item M. Qiu, F.-L. Li, S. Wang, X. Gao, Y. Chen, W. Zhao, H. Chen, J. Huang and  {\bf W. Chu} (2017) AliMe Chat: A Sequence to Sequence and Rerank based Chatbot Engine, Annual Meeting of the Association for Computational Linguistics (ACL-55 Short Paper)  
+\item J. Yang, Y. Chen, S. Wang, L. Li, C. Meng, M. Qiu, {\bf W. Chu} (2017) Practical lessons of distributed deep learning, Workshop on Principled Approaches to Deep Learning, at ICML  
+\item B. Bi, H. Ma, B. Hsu,  {\bf W. Chu}, K. Wang and J. Cho (2015) Learning to recommend related entities to search users, ACM International Conference on Web Search and Data Mining (WSDM-08):139-148  
+\item J. Yan,  {\bf W. Chu}, R. W. White (2014) Cohort modeling for enhanced personalized search, ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR-37)  
+\item X. Li, C. Guo,  {\bf W. Chu}, Y. Wang, J. Shavlik (2014) Deep learning powered in-session contextual ranking using clickthrough data, Workshop on Personalization: Methods and Applications, at Neural Information Processing Systems (NIPS)  
+\item H. Wang, X. He, M. Chang, Y. Song, R. W. White,  {\bf W. Chu} (2013) Personalized ranking model adaptation for web search, ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR-36)  
+\item R. W. White,  {\bf W. Chu}, A. Hassan, X. He, Y. Song, H. Wang (2013) Enhancing personalized search by mining and modeling task behavior, International World Wide Web Conference (WWW-22)  
+\item H. Wang, Y. Song, M. Chang, X. He, R. W. White,  {\bf W. Chu} (2013) Learning to extract cross-session search tasks, International World Wide Web Conference (WWW-22):1353-1364  
+\item T. Moon,  {\bf W. Chu}, L. Li, Z. Zheng, Y. Chang (2012) An online learning framework for refining recency search results with user click feedback, Transactions on Information Systems 30(4)  
+\item L. Li,  {\bf W. Chu}, J. Langford, T. Moon, and X. Wang (2012) An unbiased offline evaluation of contextual bandit algorithms with generalized linear models, Journal of Machine Learning Research - Workshop and Conference Proceedings 26 (JMLR W\&CP-26)  
+\item P. Bennett, R. W. White,  {\bf W. Chu}, S. Dumais, P. Bailey, F. Borisyuk and X. Cui (2012) Modeling and measuring the impact of short and long-term behavior on search personalization, ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR-35)  
+\item  {\bf W. Chu}, M. Zinkevich, L. Li, A. Thomas, and B. Tseng (2011) Unbiased online active learning in data streams, ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD-17)  
+\item L. Zhang, J. Yang,  {\bf W. Chu}, and B. Tseng (2011) A machine-learned proactive moderation system for auction fraud detection, ACM Conference on Information Retrieval and Knowledge Management (CIKM-20 Short Paper)  
+\item L. Li,  {\bf W. Chu}, J. Langford and X. Wang (2011) Unbiased offline evaluation of contextual-bandit-based news article recommendation algorithms, ACM International Conference on Web Search and Data Mining (WSDM-04) 297-306   {\em Winner of the Best Paper Award}
+\item  {\bf W. Chu}, L. Li, L. Reyzin, and R. E. Schapire (2011) Contextual bandits with linear payoff functions, International Conference on Artificial Intelligence and Statistics (AISTATS-14)  
+\item T. Moon, L. Li,  {\bf W. Chu}, C. Liao, Z. Zheng and Y. Chang (2010) Online learning for recency search ranking using real-time user feedback, International Conference on Information and Knowledge Management (CIKM-19 Short Paper) 1501-1504  
+\item L. Li,  {\bf W. Chu}, J. Langford and R. E. Schapire (2010) A contextual-bandit approach to personalized news article recommendation, International World Wide Web Conference (WWW-19) 661-670  
+\item S.-T. Park and  {\bf W. Chu} (2009) Pairwise preference regression for cold-start recommendation, ACM Recommender Systems (RecSys-03):21-28  
+\item  {\bf W. Chu} and Z. Ghahramani (2009) Probabilistic models for incomplete multi-dimensional arrays, International Conference on Artificial Intelligence and Statistics (AISTATS-12):89-96  
+\item  {\bf W. Chu} and S.-T. Park (2009) Personalized recommendation on dynamic content using predictive bilinear models, International World Wide Web Conference (WWW-18):692-700  
+\item  {\bf W. Chu}, et al. (2009) A case study of behavior-driven conjoint analysis on Yahoo! Front Page Today Module, ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD-15 Industry Track):1097-1104  
+\item R. Silva,  {\bf W. Chu} and Z. Ghahramani (2007) Hidden common cause relations in relational learning, Neural Information Processing Systems (NIPS-20):1345-1352  
+\item K. Yu and  {\bf W. Chu} (2007) Gaussian process models for link analysis and transfer learning, Neural Information Processing Systems (NIPS-20):1657-1664  
+\item P. K. Shivaswamy,  {\bf W. Chu} and M. Jansche (2007) A support vector approach to censored targets, IEEE International Conference on Data Mining (ICDM-07):655-660  
+\item  {\bf W. Chu} and S. S. Keerthi (2007)  Support vector ordinal regression,  Neural Computation 19(3):792-815  
+\item V. Sindhwani,  {\bf W. Chu} and S. S. Keerthi (2007) Semi-supervised Gaussian process classifiers, International Joint Conferences on Artificial Intelligence (IJCAI-20):1059-1064  
+\item  {\bf W. Chu}, V. Sindhwani, Z. Ghahramani and S. S. Keerthi (2006) Relational learning with Gaussian processes, Neural Information Processing Systems (NIPS-19):289-296  
+\item K. Yu,  {\bf W. Chu}, S. Yu, V. Tresp and Z. Xu (2006) Stochastic relational models for discriminative link prediction, Neural Information Processing Systems (NIPS-19):1553-1560  
+\item S. K. Shevade and  {\bf W. Chu} (2006) Minimum enclosing spheres formulations for support vector ordinal regression, IEEE International Conference on Data Mining (ICDM-06):1054-1058  
+\item  {\bf W. Chu}, Z. Ghahramani, R. Krause and D. L. Wild  (2006)  Identifying protein complexes in high-throughput protein interaction screens using an infinite latent feature model, Pacific Symposium on Biocomputing (PSB-11):231-242  
+\item  {\bf W. Chu} (2006)  Model selection: an empirical study on two kernel classifiers, International Joint Conference on Neural Networks (IJCNN-06):1673-1679
+\item  {\bf W. Chu}, Z. Ghahramani, A. Podtelezhnikov and D. L. Wild (2006) Bayesian segmental models with multiple sequence alignment profiles for protein secondary structure and contact map prediction, IEEE/ACM Transactions on Computational Biology and Bioinformatics 3(2):98-113  
+\item  {\bf W. Chu}, S. S. Keerthi, C. J. Ong and Z. Ghahramani (2006)  Bayesian support vector machines for feature ranking and selection,   In I. Guyon, S. Gunn, M. Nikravesh, and L. Zadeh, editors, Feature Extraction, Foundations and Applications   Springer:403-418
+\item  {\bf W. Chu}, Z. Ghahramani, F. Falciani and D. L. Wild (2005)  Biomarker discovery with Gaussian processes in microarray gene expression data,  Bioinformatics 2005(21):3385-3393  
+\item  {\bf W. Chu} and Z. Ghahramani (2005)  Gaussian processes for ordinal regression,  Journal of Machine Learning Research 6(Jul):1019-1041  
+\item  {\bf W. Chu}, C. J. Ong and S. S. Keerthi (2005)  An improved conjugate gradient scheme to the solution of least squares SVM,  IEEE Transactions on Neural Networks 16(2):498-501  
+\item S. S. Keerthi and  {\bf W. Chu} (2005)  A matching pursuit approach to sparse Gaussian process regression, Neural Information Processing Systems (NIPS-18):643-650  
+\item  {\bf W. Chu} and Z. Ghahramani (2005)  Preference learning with Gaussian processes, International Conference on Machine Learning (ICML-22):137-144  
+\item  {\bf W. Chu} and S. S. Keerthi (2005)  New approaches to support vector ordinal regression,  International Conference on Machine Learning (ICML-22):145-152  
+\item  {\bf W. Chu} and Z. Ghahramani (2005)  Extensions of Gaussian processes for ranking: semi-supervised and active learning, Workshop Learning to Rank at (NIPS-18):29-34  
+\item  {\bf W. Chu}, Z. Ghahramani and D. L. Wild (2004)  A graphical model for protein secondary structure prediction,  International Conference on Machine Learning (ICML-21):161-168  
+\item  {\bf W. Chu}, Z. Ghahramani and D. L. Wild (2004)  Protein secondary structure prediction using sigmoid belief networks to parameterize segmental semi-Markov models,  European Symposium on Artificial Neural Networks (ESANN-05):81-86
+\item  {\bf W. Chu}, S. S. Keerthi and C. J. Ong (2004)  Bayesian support vector regression using a unified loss function,  IEEE Transactions on Neural Networks 15(1):29-44  
+\item  {\bf W. Chu} (2003)  Bayesian approach to support vector machines, Doctoral Dissertation, National University of Singapore  
+\item K. Duan, S. S. Keerthi,  {\bf W. Chu}, S. K. Shevade and A. N. Poo  (2003)  Multi-category classification by soft-max combination of binary classifiers,  Multiple Classifier Systems (MCS-04) Lecture Notes in Computer Science 2709   Springer:125-134
+\item  {\bf W. Chu}, S. S. Keerthi and C. J. Ong (2003)  Bayesian trigonometric support vector classifier,  Neural Computation 15(9):2227-2254  
+\item  {\bf W. Chu}, S. S. Keerthi and C. J. Ong (2002)  A general formulation for support vector machines,  International Conference on Neural Information Processing (ICONIP-09)
+\item  {\bf W. Chu}, S. S. Keerthi and C. J. Ong (2002)  A new Bayesian design method for support vector classification,  International Conference on Neural Information Processing (ICONIP-09)
+\item S. S. Keerthi, et al. (2002)  A machine learning approach for the curation of Biomedical literature - KDD Cup 2002 (Task 1),  SIGKDD Explorations Newsletter, 4(2)  {\em Honorable Mention}
+\item  {\bf W. Chu}, S. S. Keerthi and C. J. Ong (2001)  A unified loss function in Bayesian framework for support vector regression,  International Conference on Machine Learning (ICML-18):51-58
+
+
+\section{\sc US Patents}
+
+\item User trustworthiness, US Patent 9519682 B1
+\item Determining user preference of items based on user ratings and user features, US Patent 8301624 B2
+\item Predicting item-item affinities based on item features by regression, US Patent 8442929 B2
+\item Enhanced matching through explore/exploit schemes, US Patent 8244517 B2
+\item Character recognition method and device, US Patent 10872274 B2
+\item Segmentation-based damage detection, US Patent 10783643 B1
+\item Methods and systems relating to ranking functions for multiple domains, US Patent 10019518 B2
+\item Personalized recommendations on dynamic content, US Patent 9600581 B2
+\item Segmentation-based damage detection, US Patent 11004204 B2
+\item Character recognition method and device, US Patent 10872274 B2
+\item Online active learning in user-generated content streams, US Patent 99673218 B2
+\item Methods and apparatuses for building data identification models, US App. 20180365522 A1
+\item Text information clustering method and text information clustering system, US App. 20180365218 A1
+\item Multi-sampling model training method and device, US App. 20180365525 A1
+\item Question recommendation method and device, US App. 20180330226 A1
+\item Feature data processing method and device, US App. 20180341801 A1
+\item Text information clustering method and text information clustering system, US App. 20180365218 A1
+\item Multi-sampling model training method and device, US App. 20180365525 A1
+\item Method and system for training model by using training data, US App. 20180365521 A1
+\item Question recommendation method and device, US App. 20180330226 A1
+\item Feature data processing method and device, US App. 20180341801 A1
+
+\end{enumerate}
+
+%------------------------------------------------------------------------------
+
+\section{\sc Honors and Awards}
+
+\begin{itemize}
+\item Best Demo Award, ACM CIKM, 2017
+%\item China's National Innovation Talent, 2016
+\item Best Paper Award, ACM WSDM, 2011
+\item Super Star Team Award, Yahoo!, 2008
+\item Honorable Mention Team, ACM KDD CUP, 2002
+\end{itemize}
+
+\comment{
+%------------------------------------------------------------------------------
+\section{\sc Recent Presentations}
+
+\begin{itemize}
+\item Oct. 24th, 2005 at Intelligent Data Analysis group, Fraunhofer FIRST, Berlin (Host: Anton Schwaighofer)
+\item May 18th, 2005 at Bloomsbury Center for Bioinformatics, Birkbeck College, London (Host: Jacky Pallas)
+\item Apr. 20th, 2005 at Dept. of Mathematics, King's College, London (Host: ACC Coolen)
+\item Jun. 8th, 2004 at Yahoo! Research Labs, Los Angeles (Host: S. Sathiya Keerthi)
+\item Jan. 28th, 2004 at Dept. of Computer Science, University College London, London (Host: Massi Pontil)
+\item Nov. 27th, 2003 at Genome Institute of Singapore, Singapore (Host: Philip M. Long)
+\end{itemize}
+
+
+\section{\sc Recent Presentations}
+
+\begin{itemize}
+  \item 
+  \item Knowledge graph and real-life applications, presented at CogX 2020
+  \item Nonlinear machine learning approach by cloud computing to short-term precipitation forecasting, presented at CBS 2016, World Meteorology Organization
+  \item Distributed machine learning platform and its applications in Alibaba,
+  presented at Alibaba Technology Forum 2016, Hong Kong Polytechnic University
+\end{itemize}
+
+}
+
+\section{\sc Professional Services}
+
+Reviewer for the following journals: 
+
+\begin{itemize}
+\item BMC Bioinformatics
+\item IEEE Transactions on Evolutionary Computation
+\item IEEE Transactions on Neural Networks
+\item IEEE Transactions on Pattern Analysis and Machine Intelligence
+\item IEEE Transactions on Systems, Man, and Cybernetics
+\item Journal of Machine Learning Research 
+\item Machine Learning Journal
+\item Neurocomputing 
+\item Neural Computation 
+\item Operations Research
+\end{itemize}
+
+Reviewer for the following conferences: ICML, SIGIR, NIPS, AISTATS, ECML, ESANN, PSB, WWW
+
+
+%\vspace{\fill}\ \newline {\tiny \rm $ $Date: 2005/01/16 18:27:33 $
+%$ } {\tiny \rm $ $at Gatsby Unit, UK$ $ }
+%==============================================================================
+%\newpage
+%\opening
+
+\section{\sc Ongoing Projects}
+
+\begin{itemize}
+  \item Logical graph neural networks for symbolic reasoning
+  \item Event logical graph construction and inference
+  \item Insurance claim automation systems by structural extraction from images
+  \item Object recognition and segmentation for satellite imagery
+  \item Video content understanding by multi-modality learning
+  \item Latent confounder discovery in casual inference
+  \end{itemize}
+
+
+\section{\sc References}
+
+Available upon request
+
+\comment{
+    Zoubin Ghahramani\\
+    Reader\\
+    Gatsby Computational Neuroscience Unit\\
+    University College London, U.K.\\
+    Tel: (44)207-679-1199 \\
+    Email: zoubin@gatsby.ucl.ac.uk \\
+
+    S. Sathiya Keerthi\\
+    Sr. Research Scientist\\
+    Yahoo! Research Labs., USA \\
+    Tel: (1)626-229-8827 \\
+    Email: selvarak@yahoo-inc.com \\
+
+{   Chong Jin Ong\\
+    Associate Professor\\
+    Dept. of Mechanical Engineering\\
+    National University of Singapore, Singapore\\
+    Tel: (65)6874-2217 \\
+    Email: mpeongcj@nus.edu.sg \\
+}
+
+    David L. Wild\\
+    Associate Professor\\
+    Keck Graduate Institute of Applied Life Sciences, USA\\
+    Tel: (1)909-607-8566 \\
+    Email: wild@kgi.edu \\
+}
+
+%--------------------------------------------------------------------------
+
+\vspace{\fill}\ \newline {\footnotesize \rm $ $Date: 2022/06/18
+$ $ } {\footnotesize \rm $ $ $ $
+}
+
+%------------------------------------------------------------------------------
+%==============================================================================
+%\newpage
+%\opening
+%---------------------------------------------------------------------------
+\ite{\bl{ref}}{
+
+
+\newpage
+\opening
+\section{\sc References}
+
+%% Sample reference sheet:
+%% http://www.uwm.edu/Dept/CDC/resrefer.htm
+%% References DO NOT belong on the resume.
+%% They should be listed on a separate sheet.
+%% Send the references with the resume only when
+%% specifically requested by the employer.
+%% There is no need to state "References available upon request."
+%% It is assumed that you will provide them.
+
+
+%
+Reference A. Person \newline
+Sandia National Laboratories \newline
+000-000-0000 \newline
+{\tt devnull@Sandia.GOV} \newline
+Impressive Title for Person
+
+
+
+%
+Reference A. Person \newline
+Sandia National Laboratories \newline
+000-000-0000 \newline
+{\tt devnull@Sandia.GOV} \newline
+Impressive Title for Person
+
+
+
+%
+Reference A. Person \newline
+Sandia National Laboratories \newline
+000-000-0000 \newline
+{\tt devnull@Sandia.GOV} \newline
+Impressive Title for Person
+
+
+
+%
+Reference A. Person \newline
+Sandia National Laboratories \newline
+000-000-0000 \newline
+{\tt devnull@Sandia.GOV} \newline
+Impressive Title for Person
+
+
+
+%
+Reference A. Person \newline
+Sandia National Laboratories \newline
+000-000-0000 \newline
+{\tt devnull@Sandia.GOV} \newline
+Impressive Title for Person
+
+
+
+}
+
+
+\end{resume}
+
+
+\end{document}
